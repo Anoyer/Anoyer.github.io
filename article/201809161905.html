@@ -331,9 +331,9 @@ var _hmt = _hmt || [];
                 
                    <a href="/tags/随笔/"><i class="fa fa-tag fa-fw" aria-hidden="true"></i>&nbsp;随笔</a>&nbsp;
                 
-                   <a href="/tags/励志/"><i class="fa fa-tag fa-fw" aria-hidden="true"></i>&nbsp;励志</a>&nbsp;
-                
                    <a href="/tags/网红/"><i class="fa fa-tag fa-fw" aria-hidden="true"></i>&nbsp;网红</a>&nbsp;
+                
+                   <a href="/tags/励志/"><i class="fa fa-tag fa-fw" aria-hidden="true"></i>&nbsp;励志</a>&nbsp;
                 
             </div>
         
@@ -385,7 +385,7 @@ var _hmt = _hmt || [];
                                 
                                 <h6 class="tags">
                                     <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;
-                                    <a class="tag" href="/tags/随笔/">随笔</a>, <a class="tag" href="/tags/软件/">软件</a>, <a class="tag" href="/tags/励志/">励志</a>
+                                    <a class="tag" href="/tags/随笔/">随笔</a>, <a class="tag" href="/tags/励志/">励志</a>, <a class="tag" href="/tags/软件/">软件</a>
                                 </h6>
                             
                         </span>
@@ -1004,8 +1004,8 @@ function show_runtime(){
             var guest_info = 'nick,mail'.split(',').filter(function(item){
                 return GUEST_INFO.indexOf(item) > -1
             });
-            var notify = 'false' == true;
-            var verify = 'false' == true;
+            var notify = 'true' == true;
+            var verify = 'true' == true;
             var valine = new Valine();
             valine.init({
                 el: '#valine_container',

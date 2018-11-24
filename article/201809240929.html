@@ -289,6 +289,7 @@ var _hmt = _hmt || [];
 
         </div>
 
+
     <section class="meta">
   <time itemprop="dateUpdated" datetime="2018-11-23T23:39:48+08:00" content="2018-11-23-星期五">
     <i class="fas fa-pen fa-fw" aria-hidden="true"></i>
@@ -319,7 +320,7 @@ var _hmt = _hmt || [];
 
 
        
-            <div class="article-tags tags" style="text-align: center;">
+            <div class="article-tags tags">
                 
                    <a href="/tags/js/"><i class="fa fa-tag fa-fw" aria-hidden="true"></i>&nbsp;js</a>&nbsp;
                 
@@ -329,7 +330,7 @@ var _hmt = _hmt || [];
                 
             </div>
         
-            <br>
+
         
             <div class="prev-next">
                 
@@ -413,28 +414,12 @@ var _hmt = _hmt || [];
 
             
 
+                <div id="lv-container" data-id="city" data-uid="MTAyMC8zOTcwNC8xNjIzMQ=="></div>
                 
-
-                
-
-                
-                    
-                        <h4><i class="fa fa-comments fa-fw" aria-hidden="true"></i>&nbsp;发表评论</h4>
-                        <div class="subtitle">
-                          <h6><b>文明评论，请勿灌水。</b>为了便于区分和接收回复提醒，请您在留言时填写一下<b>昵称</b>和<b>邮箱</b>。</h6>
-                        <div>
-                        <section id="comments">
-                            <div id="valine_container" class="valine_thread">
-                                <i class="fa fa-spinner fa-spin fa-fw"></i>
-                            </div>
-                        </section>
-                        <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-                        <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
-                    
                 
             
 
-        </div></div></section>
+        </section>
     </article>
 
 
@@ -980,32 +965,20 @@ function show_runtime(){
 
 
 <!-- 来必力评论 -->
-    
+<script type="text/javascript">
+   (function(d, s) {
+       var j, e = d.getElementsByTagName(s)[0];
+
+       if (typeof LivereTower === 'function') { return; }
+
+       j = d.createElement(s);
+       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+       j.async = true;
+
+       e.parentNode.insertBefore(j, e);
+   })(document, 'script');
+</script>
     <!-- valine评论 -->
-    
-        
-            <script>
-            var GUEST_INFO = ['nick','mail','link'];
-            var guest_info = 'nick,mail'.split(',').filter(function(item){
-                return GUEST_INFO.indexOf(item) > -1
-            });
-            var notify = 'true' == true;
-            var verify = 'true' == true;
-            var valine = new Valine();
-            valine.init({
-                el: '#valine_container',
-                notify: notify,
-                verify: verify,
-                guest_info: guest_info,
-                appId: "kVENKGIY7KvKvtEhA7A74SiY-gzGzoHsz",
-                appKey: "jYWRHPrBvK9TJXPigt5umo9t",
-                placeholder: "说点什么吧~",
-                pageSize:'10',
-                avatar:'identicon',
-                lang:'zh-cn'
-            })
-            </script>
-        
     
 
 

@@ -1,16 +1,16 @@
 function clock_12h()
 {
- var today = new Date(); //��õ�ǰʱ��
- //����ꡢ�¡��գ�Date()�����е��·��Ǵ�0��11����
+ var today = new Date(); //获得当前时间
+ //获得年、月、日，Date()函数中的月份是从0－11计算
  var year = today.getFullYear();  
  var month = today.getMonth()+1;
  var date = today.getDate();
- var hour = today.getHours();  //���Сʱ�����ӡ���
+ var hour = today.getHours();  //获得小时、分钟、秒
  var minute = today.getMinutes();
  var second = today.getSeconds();
  
- var apm="AM"; //Ĭ����ʾ����: AM
- if (hour>12) //��12Сʱ����ʾ
+ var apm="AM"; //默认显示上午: AM
+ if (hour>12) //按12小时制显示
  {
     hour=hour-12;
     apm="PM"  ;
@@ -18,30 +18,30 @@ function clock_12h()
  var weekday = 0;
  switch(today.getDay()){
     case 0:
-  	weekday = "������";
+  	weekday = "星期日";
 	break;
     case 1:
-  	weekday = "����һ";
+  	weekday = "星期一";
 	break;
 	case 2:
-  	weekday = "���ڶ�";
+  	weekday = "星期二";
 	break;
 	case 3:
-  	weekday = "������";
+  	weekday = "星期三";
 	break;
 	case 4:
-  	weekday = "������";
+  	weekday = "星期四";
 	break;
 	case 5:
-  	weekday = "������";
+  	weekday = "星期五";
 	break;
 	case 6:
-  	weekday = "������";
+  	weekday = "星期六";
 	break;
  }
  
-  /*����div������Ϊ��ǰʱ��*/
- document.getElementById("myclock").innerHTML=""+year+"��"+month+"��"+date+"��"+weekday;
+  /*设置div的内容为当前时间*/
+ document.getElementById("myclock").innerHTML=""+year+"年"+month+"月"+date+"日"+weekday;
 }
-/*ʹ��setInterval()ÿ���ָ����������clock_12h()*/
+/*使用setInterval()每间隔指定毫秒后调用clock_12h()*/
 var myTime = setInterval("clock_12h()",1000);

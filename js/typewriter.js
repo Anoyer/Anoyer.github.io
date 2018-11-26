@@ -1,5 +1,5 @@
   $(function() {
-   myPrint(["小白行动正在进行中！...（详情请看公告）"], 100);
+   myPrint([""], 100);
  
    function myPrint(arr, speed) {
     var index = 0;

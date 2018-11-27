@@ -228,10 +228,15 @@ var _hmt = _hmt || [];
 		</nav>
 	</aside>
 <center>
-	<div class="notice-bar text-container">
+	<div id="notice-bar-off" class="notice-bar text-container">
+
 		<img class="notice-bar-img" src="https://img.vim-cn.com/eb/80d32d553d492af191a2a72da25a8385ba16cd.png">
 		
-		小吴博客欢迎您！今天是<span id="myclock"></span>
+		小吴博客欢迎您！<!-- 今天是<span id="myclock"></span> -->
+
+		<a href="#" onclick="javascript:turnoff('notice-bar-off')">
+			<span style="color: #00B09F">关闭</span>
+		</a>
 
 <!-- 		 <span class="text-static"></span>
 		 <span class="text"></span>
@@ -240,6 +245,11 @@ var _hmt = _hmt || [];
 </div>
 </center>
 
+<script>
+function turnoff(obj){
+document.getElementById(obj).style.display="none";
+}
+</script>
 <!-- 小吴博客logo：https://img.vim-cn.com/29/fc5703ecc2b4f10231ef47770cdd4b43cdd561.png -->
 <!-- 生日蛋糕logo：https://img.vim-cn.com/fe/57a2a4e17fe41e6b19a7d3b67d2f4da215cc48.png -->
 <!-- 生日祝福语：生日快乐！今天是小吴博客博主的生日！非常感谢大家对我的祝福！ -->
@@ -257,7 +267,7 @@ var _hmt = _hmt || [];
 <article class="post reveal ">
 
 
-    <img style="float: right;" width="50px" height="50px" src="/img/top.png">
+    <img style="float: right;" width="8%" src="/img/top.png">
 
 
       
@@ -290,7 +300,7 @@ var _hmt = _hmt || [];
     <section class="article typo">
         <div>
             <a title="点击阅读全文" href="/article/article-top.html">
-                <img style="float: left;margin-right: 10px;" width="100px" height="100px" src="https://img.vim-cn.com/7d/89ceeff472511ff6a2826bef7281eedc0cc61f.png">
+                <img style="float: left;margin-right: 10px;" width="80px" height="80px" src="https://img.vim-cn.com/7d/89ceeff472511ff6a2826bef7281eedc0cc61f.png">
             </a>
         </div>
 
@@ -319,7 +329,7 @@ var _hmt = _hmt || [];
 
 
 
-    <img style="float: right;" width="50px" height="50px" src="/img/new.png">
+    <img style="float: right;" width="8%" src="/img/new.png">
       
 
         <section class="meta">
@@ -350,7 +360,7 @@ var _hmt = _hmt || [];
     <section class="article typo">
         <div>
             <a title="点击阅读全文" href="/article/201811260856.html">
-                <img style="float: left;margin-right: 10px;" width="100px" height="100px" src="https://img.vim-cn.com/7d/f8374b91cd5aa3fa9209711954a0620eb619d1.png">
+                <img style="float: left;margin-right: 10px;" width="80px" height="80px" src="https://img.vim-cn.com/7d/f8374b91cd5aa3fa9209711954a0620eb619d1.png">
             </a>
         </div>
 
@@ -408,7 +418,7 @@ var _hmt = _hmt || [];
     <section class="article typo">
         <div>
             <a title="点击阅读全文" href="/article/201811192203.html">
-                <img style="float: left;margin-right: 10px;" width="100px" height="100px" src="https://img.vim-cn.com/e2/6dae30077f9a384e810ce876e1d67e84c240e5.jpg">
+                <img style="float: left;margin-right: 10px;" width="80px" height="80px" src="https://img.vim-cn.com/e2/6dae30077f9a384e810ce876e1d67e84c240e5.jpg">
             </a>
         </div>
 
@@ -466,7 +476,7 @@ var _hmt = _hmt || [];
     <section class="article typo">
         <div>
             <a title="点击阅读全文" href="/article/201811171944.html">
-                <img style="float: left;margin-right: 10px;" width="100px" height="100px" src="https://img.vim-cn.com/49/900038efb2f11e13184fca41c88b4cc8e7e738.png">
+                <img style="float: left;margin-right: 10px;" width="80px" height="80px" src="https://img.vim-cn.com/49/900038efb2f11e13184fca41c88b4cc8e7e738.png">
             </a>
         </div>
 
@@ -524,7 +534,7 @@ var _hmt = _hmt || [];
     <section class="article typo">
         <div>
             <a title="点击阅读全文" href="/article/201811161726.html">
-                <img style="float: left;margin-right: 10px;" width="100px" height="100px" src="https://img.vim-cn.com/5e/339c5fb6e0cf1ae61ebcf9eb28101a34abd234.png">
+                <img style="float: left;margin-right: 10px;" width="80px" height="80px" src="https://img.vim-cn.com/5e/339c5fb6e0cf1ae61ebcf9eb28101a34abd234.png">
             </a>
         </div>
 
@@ -582,7 +592,7 @@ var _hmt = _hmt || [];
     <section class="article typo">
         <div>
             <a title="点击阅读全文" href="/article/201811031638.html">
-                <img style="float: left;margin-right: 10px;" width="100px" height="100px" src="https://img.vim-cn.com/a0/5a3a5078fb2250e6a0d637fc87112421b9f837.jpg">
+                <img style="float: left;margin-right: 10px;" width="80px" height="80px" src="https://img.vim-cn.com/a0/5a3a5078fb2250e6a0d637fc87112421b9f837.jpg">
             </a>
         </div>
 
@@ -640,7 +650,7 @@ var _hmt = _hmt || [];
     <section class="article typo">
         <div>
             <a title="点击阅读全文" href="/article/201811021354.html">
-                <img style="float: left;margin-right: 10px;" width="100px" height="100px" src="https://img.vim-cn.com/3f/bef251578df049dbef6143096f8e991cb05fa5.jpg">
+                <img style="float: left;margin-right: 10px;" width="80px" height="80px" src="https://img.vim-cn.com/3f/bef251578df049dbef6143096f8e991cb05fa5.jpg">
             </a>
         </div>
 
@@ -698,7 +708,7 @@ var _hmt = _hmt || [];
     <section class="article typo">
         <div>
             <a title="点击阅读全文" href="/article/201810280656.html">
-                <img style="float: left;margin-right: 10px;" width="100px" height="100px" src="https://img.vim-cn.com/26/48c48483e343c5aa33787a5827a1be850a1d55.png">
+                <img style="float: left;margin-right: 10px;" width="80px" height="80px" src="https://img.vim-cn.com/26/48c48483e343c5aa33787a5827a1be850a1d55.png">
             </a>
         </div>
 
@@ -756,7 +766,7 @@ var _hmt = _hmt || [];
     <section class="article typo">
         <div>
             <a title="点击阅读全文" href="/article/201810261345.html">
-                <img style="float: left;margin-right: 10px;" width="100px" height="100px" src="https://img.vim-cn.com/f1/eb5981d9ecd888180be861db13b2d1ff13907f.jpg">
+                <img style="float: left;margin-right: 10px;" width="80px" height="80px" src="https://img.vim-cn.com/f1/eb5981d9ecd888180be861db13b2d1ff13907f.jpg">
             </a>
         </div>
 
@@ -814,7 +824,7 @@ var _hmt = _hmt || [];
     <section class="article typo">
         <div>
             <a title="点击阅读全文" href="/article/201810212028.html">
-                <img style="float: left;margin-right: 10px;" width="100px" height="100px" src="https://img.vim-cn.com/61/62928a7b8fa0791991dbe54a35a998ad699de6.png">
+                <img style="float: left;margin-right: 10px;" width="80px" height="80px" src="https://img.vim-cn.com/61/62928a7b8fa0791991dbe54a35a998ad699de6.png">
             </a>
         </div>
 

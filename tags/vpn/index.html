@@ -230,10 +230,15 @@ var _hmt = _hmt || [];
 		</nav>
 	</aside>
 <center>
-	<div class="notice-bar text-container">
+	<div id="notice-bar-off" class="notice-bar text-container">
+
 		<img class="notice-bar-img" src="https://img.vim-cn.com/eb/80d32d553d492af191a2a72da25a8385ba16cd.png">
 		
-		小吴博客欢迎您！今天是<span id="myclock"></span>
+		小吴博客欢迎您！<!-- 今天是<span id="myclock"></span> -->
+
+		<a href="#" onclick="javascript:turnoff('notice-bar-off')">
+			<span style="color: #00B09F">关闭</span>
+		</a>
 
 <!-- 		 <span class="text-static"></span>
 		 <span class="text"></span>
@@ -242,6 +247,11 @@ var _hmt = _hmt || [];
 </div>
 </center>
 
+<script>
+function turnoff(obj){
+document.getElementById(obj).style.display="none";
+}
+</script>
 <!-- 小吴博客logo：https://img.vim-cn.com/29/fc5703ecc2b4f10231ef47770cdd4b43cdd561.png -->
 <!-- 生日蛋糕logo：https://img.vim-cn.com/fe/57a2a4e17fe41e6b19a7d3b67d2f4da215cc48.png -->
 <!-- 生日祝福语：生日快乐！今天是小吴博客博主的生日！非常感谢大家对我的祝福！ -->
@@ -294,7 +304,7 @@ var _hmt = _hmt || [];
     <section class="article typo">
         <div>
             <a title="点击阅读全文" href="/article/201809231447.html">
-                <img style="float: left;margin-right: 10px;" width="100px" height="100px" src="https://img.vim-cn.com/dc/959b320b31d2eaa317a80196eaf21eb01cfdd1.jpg">
+                <img style="float: left;margin-right: 10px;" width="80px" height="80px" src="https://img.vim-cn.com/dc/959b320b31d2eaa317a80196eaf21eb01cfdd1.jpg">
             </a>
         </div>
 

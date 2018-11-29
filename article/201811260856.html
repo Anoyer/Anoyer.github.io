@@ -1,3 +1,4 @@
+
 <!---
  *　　　　　　　　┏┓　　　┏┓+ +
  *　　　　　　　┏┛┻━━━┛┻┓ + +
@@ -21,6 +22,8 @@
  *　　　　　　　　　　┃┫┫　┃┫┫
  *　　　　　　　　　　┗┻┛　┗┻┛+ + + +
 --->
+
+
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head><meta name="generator" content="Hexo 3.8.0">
@@ -408,12 +411,22 @@
 
             
             
+                <h4><i class="fa fa-comments fa-fw" aria-hidden="true"></i>&nbsp;发表评论</h4>
+                <div class="subtitle">
+                  <h6><b>文明评论，请勿灌水。</b>为防止恶意评论，请<b>登录账号</b>后发表评论</h6>
+                <div>
+                <section id="comments">
+                    <div id="SOHUCS" sid=""></div>
+                </section>
+                <script charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/changyan.js"></script>
+                
+            
         
 
 
         
 
-        </section>
+        </div></div></section>
     </article>
 
 
@@ -826,25 +839,26 @@
 
     <div>
       <span style="font-family:arial;font-size:15px;font-weight: bold">
-        <b>&copy; 2018 XiaoWu'blog</b>
+        <b>&copy;&nbsp;2018 XiaoWu&#39;blog</b>
       </span>
     </div>
+
 
 <span id="runtime_span"></span>
 
 <script type="text/javascript">
-
 function show_runtime(){
   window.setTimeout("show_runtime()",1000);
-  X=new Date("8/22/2018 18:27:00");
+  X=new Date("8/22/2018 18:27:0");
   Y=new Date();T=(Y.getTime()-X.getTime());M=24*60*60*1000;
   a=T/M;A=Math.floor(a);
   b=(a-A)*24;B=Math.floor(b);
   c=(b-B)*60;C=Math.floor((b-B)*60);
   D=Math.floor((c-C)*60);
-  runtime_span.innerHTML="—— 本站已稳定运行: "+A+"天"+B+"小时"+C+"分"+D+"秒 ——"}show_runtime();
+  runtime_span.innerHTML="—— 本站已稳定运行： "+A+"天"+B+"小时"+C+"分"+D+"秒 ——"}show_runtime();
 
 </script>
+
 
     
         <div style="margin-top: 10px;">
@@ -878,10 +892,6 @@ function show_runtime(){
     
 
 </footer>
-
-
-
-
 
 <!-- 根据页面mathjax变量决定是否加载MathJax数学公式js -->
 
@@ -929,19 +939,30 @@ function show_runtime(){
 <!--畅言评论-->
 
         
+
+    <script type="text/javascript">
+    window.changyan.api.config({
+    appid: 'cytiBEfFo',
+    conf: 'prod_0e53369135c947c1e08e66a7f10b5d50'
+    });
+    </script>
+    
+    
   
 
     <script>setLoadingBarProgress(100);</script>
+
 
 <script type="text/javascript">
 document.body.oncopy=function(){alert("小吴博客：复制成功！如需转载文章请注意声明原文出处，谢谢！");}
 </script>
 
+
 <script>
     document.addEventListener('visibilitychange', function () {
     if (document.visibilityState == 'hidden') {
         normal_title = document.title;
-        document.title = '欢迎回到小吴博客！';
+        document.title = '欢迎回到小吴博客';
     } else document.title = normal_title;
 });
 </script>

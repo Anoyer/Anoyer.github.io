@@ -460,14 +460,22 @@ var _hmt = _hmt || [];
             
              
             
-            <h4><i class="fa fa-comments fa-fw" aria-hidden="true"></i>&nbsp;发表评论</h4>
-                <div class="subtitle">
-                    <h6><b>文明评论，请勿灌水。</b>为防止恶意评论，请<b>登录账号</b>后发表评论（不建议使用 <img style="display: inline-block;vertical-align: middle;" src="https://img.vim-cn.com/cc/e59186f78cc85748bc43773ee00e838f527164.png"> LiveRe登录）。</h6>
-                <div>
-                    <section id="comments">
-                <div id="lv-container" data-id="city" data-uid="MTAyMC8zOTcwNC8xNjIzMQ=="></div>
-                    </section>
+
+
             
+            
+                <h4><i class="fa fa-comments fa-fw" aria-hidden="true"></i>&nbsp;Valine评论</h4>
+                <div class="subtitle">
+                  <h6><b>文明评论，请勿灌水。</b>为了便于区分和接收回复提醒，请您在留言时填写一下<b>昵称</b>和<b>邮箱</b>。</h6>
+                <div>
+                <section id="comments">
+                    <div id="SOHUCS" sid=""></div>
+                </section>
+                <script charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/changyan.js"></script>
+            
+        
+
+
         
 
         </div></div></section>
@@ -980,20 +988,23 @@ function show_runtime(){
 
 
 
-    <!-- 来必力评论 -->
-    
-        <script type="text/javascript">
-           (function(d, s) {
-               var j, e = d.getElementsByTagName(s)[0];
-               if (typeof LivereTower === 'function') { return; }
-               j = d.createElement(s);
-               j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-               j.async = true;
-               e.parentNode.insertBefore(j, e);
-           })(document, 'script');
-        </script>
+   <!-- 来必力评论 -->
     
 
+<!--畅言评论-->
+
+        
+
+    <script type="text/javascript">
+    window.changyan.api.config({
+    appid: 'cytiBEfFo',
+    conf: 'prod_0e53369135c947c1e08e66a7f10b5d50'
+    });
+    </script>
+<script charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/changyan.js"></script>
+
+    
+  
 
     <script>setLoadingBarProgress(100);</script>
 

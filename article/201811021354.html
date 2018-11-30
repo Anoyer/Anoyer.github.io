@@ -71,7 +71,6 @@
 </html>
 <body class="l_body">
 
-
  <div classdivclass="d_out" onmouseover="this.className='d_over'"  onmouseout="this.className='d_out'">
     <a title="飞回顶部" href="#0" class="cd-top">Top</a>
  </div>
@@ -287,7 +286,7 @@
     <section class="article typo">
 
         <div class="article-entry" itemprop="articleBody">
-            <p>我的每一篇博客文章的底部都会有一个分享按钮，点击就可以实现分享功能，我使用的社会化分享平台是Mob家针对于Web平台的WebShare，但大家并不知道为了实现这个分享功能可是把我的头都给弄大了。至于整个分享代码的部署过程我就不说了，官方的开发文档都有，<a id="more"></a> 我需要郑重说明的是： </p>
+            <p>我的每一篇博客文章的底部都会有一个分享按钮，点击就可以实现分享功能，我使用的社会化分享平台是Mob家针对于Web平台的WebShare，但大家并不知道为了实现这个分享功能可是把我的头都给弄大了。至于整个分享代码的部署过程我就不说了，官方的开发文档都有，<a id="more"></a> 我需要郑重说明的是：</p>
 <blockquote>
 <font size="4">如果你直接按照官方文档上说的那样部署好了你的分享功能，那么我告诉你，很可能你的分享按钮点击无效！</font>
 </blockquote>
@@ -301,9 +300,9 @@
 
 
     <section class="meta">
-  <time itemprop="dateUpdated" datetime="2018-11-23T23:36:28+08:00" content="2018-11-23-星期五">
+  <time itemprop="dateUpdated" datetime="2018-11-29T22:28:30+08:00" content="2018-11-29-星期四">
     <i class="fas fa-pen fa-fw" aria-hidden="true"></i>
-    本文最后更新于：2018-11-23-星期五
+    本文最后更新于：2018-11-29-星期四
   </time>
   </section>
 
@@ -495,7 +494,7 @@
                 
               
                 
-                    <a title="我的音乐" href="https://music.163.com/#/playlist?id=2460947484" class="social flat-box" target="_blank" rel="external"><i class="social fab fas fa-headphones-alt" aria-hidden="true"></i></a>
+                    <a title="RSS订阅" href="/atom.xml" class="social flat-box" target="_blank" rel="external"><i class="social fab fas fa-rss" aria-hidden="true"></i></a>
                 
               
             </div>
@@ -846,7 +845,7 @@
               
           
               
-                  <a title="我的音乐" href="https://music.163.com/#/playlist?id=2460947484" class="social fab fas fa-headphones-alt flat-box" target="_blank" rel="external"></a>
+                  <a title="RSS订阅" href="/atom.xml" class="social fab fas fa-rss flat-box" target="_blank" rel="external"></a>
               
           
         </div>
@@ -966,6 +965,30 @@ function show_runtime(){
     
   
 
+
+<!--  
+
+鼠标悬浮显示图片
+
+<script>
+
+<div>
+<span style="cursor: pointer;" onmouseover="over()" onmouseout = "out()">指向这里可以显示图片</span>
+<img src="/img/author.png" style="display:none" id="xf-img"/>
+</div>
+
+function over(){
+    img = document.getElementById("xf-img");
+    img.style.display = "block";
+}
+ 
+function out(){
+    img = document.getElementById("xf-img");
+    img.style.display = "none";
+}
+</script>
+
+ -->
     <script>setLoadingBarProgress(100);</script>
 
 

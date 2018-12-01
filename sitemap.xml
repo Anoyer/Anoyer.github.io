@@ -2,16 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.wushile.top/MaterialPlus/doc.html</loc>
+    <loc>https://www.wushile.top/MaterialPlus/index.html</loc>
     
-    <lastmod>2018-12-01T11:57:55.223Z</lastmod>
+    <lastmod>2018-12-01T12:30:23.096Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.wushile.top/MaterialPlus/index.html</loc>
+    <loc>https://www.wushile.top/article/article-top.html</loc>
     
-    <lastmod>2018-12-01T10:19:03.556Z</lastmod>
+    <lastmod>2018-12-01T12:11:11.624Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.wushile.top/MaterialPlus/doc.html</loc>
+    
+    <lastmod>2018-12-01T11:57:55.223Z</lastmod>
     
   </url>
   
@@ -40,13 +47,6 @@
     <loc>https://www.wushile.top/link-sq/index.html</loc>
     
     <lastmod>2018-11-30T02:19:00.049Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.wushile.top/article/article-top.html</loc>
-    
-    <lastmod>2018-11-29T15:10:52.754Z</lastmod>
     
   </url>
   

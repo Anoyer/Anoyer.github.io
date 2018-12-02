@@ -3,6 +3,31 @@
   
     
     <entry>
+      <title>使用彩虹域名转发系统进行URL转发</title>
+      <link href="/article/201812021835.html"/>
+      <url>/article/201812021835.html</url>
+      
+        <content type="html"><![CDATA[<p>所谓URL转发又叫域名转发，它是通过服务器的特殊设置，将访问您当前域名的用户跳转到你指定的另一个网址。一般在域名管理中是有这个功能的，但是有一些限制，就比如西部数码的域名管理平台上，虽然有免费的URL转发服务，但却是国外线路，除非还要另买套餐。所以我们也可以通过一些免费的平台来实现域名转发服务。</p><blockquote><p><font size="4">下面来介绍下如何使用“彩虹域名转发系统”来进行免费URL的转发。</font></p></blockquote><h2 id="注册账户"><a href="#注册账户" class="headerlink" title="注册账户"></a>注册账户</h2><p>域名转发一个重要的条件就是你必须拥有一个自己的域名。打开 <a href="https://url.cccyun.cc" target="_blank" rel="noopener">彩虹域名转发系统</a>。没有账号就注册一个。  <br><br><img src="https://img.vim-cn.com/aa/d10c9feb435cf512d05417af81b3431ed1dd0c.png" alt=""></p><h2 id="添加转发域名"><a href="#添加转发域名" class="headerlink" title="添加转发域名"></a>添加转发域名</h2><p>注册好后进入用户中心，点击左侧菜单的“添加域名转发”,输入你要用来转发的域名，这个域名必须是你自己的。<br>进入你的域名管理平台，将你的域名添加一个CNAME记录，记录值为：    <code>url.cccyun.cc</code>,主机名随便填，比如zhuanfa。</p><p>在域名管理中添加好记录后回到域名转发系统，将你之前设置好的转发域名填进来，也就是zhuanfa.xxx.xxx，注意这里的xxx.xxx是你的域名。</p><h2 id="选择转发类型"><a href="#选择转发类型" class="headerlink" title="选择转发类型"></a>选择转发类型</h2><p>转发类型有两种，一个是显性转发，它就是通过你的转发域名访问目标地址时，直接跳转至你所指定的网址。<br>隐性转发就是当访客访问你的转发域名时，会显示你所指定的网址的内容，比如页面标题、关键字和页面描述（这些需要你设置的），并且地址栏中的网址也不会发生变化。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 域名 </tag>
+            
+            <tag> URL转发 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>小吴原创-Martial X实现顶部通知</title>
       <link href="/article/201811260856.html"/>
       <url>/article/201811260856.html</url>

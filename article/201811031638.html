@@ -286,7 +286,7 @@
     <section class="article typo">
 
         <div class="article-entry" itemprop="articleBody">
-            <p>今天给大家带来两个通过js实现的小功能，一个是网页内容被复制后会出现一个提示窗口，可以作为一种版权提示，比如“内容已复制…”，另一个功能是在PC端上打开你的博客网站后，如果切换到其他标签栏，离开了当前页面时会改变你博客网站在标签栏上显示的title标题。<a id="more"></a></p>
+            <p>今天给大家带来两个通过js实现的小功能，一个是网页内容被复制后会出现一个提示窗口，可以作为一种版权提示，比如“内容已复制…”，另一个功能是在PC端上打开你的博客网站后，如果切换到其他标签栏，离开了当前页面时会改变你博客网站在标签栏上显示的title标题。</p>
 <h2 id="网页内容复制提示"><a href="#网页内容复制提示" class="headerlink" title="网页内容复制提示"></a>网页内容复制提示</h2><h3 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;script type=<span class="string">"text/javascript"</span>&gt;</span><br><span class="line"><span class="built_in">document</span>.body.oncopy=<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;alert(<span class="string">"XX博客：复制成功！感谢您的支持o(∩_∩)o "</span>);&#125;</span><br><span class="line">&lt;<span class="regexp">/script&gt;</span></span><br></pre></td></tr></table></figure>
 <h3 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h3><p>把上面的代码复制好后粘贴到网页的<code>&lt;/body&gt;</code>的前面即可。</p>
 <h2 id="标签栏切换改变title"><a href="#标签栏切换改变title" class="headerlink" title="标签栏切换改变title"></a>标签栏切换改变title</h2><h3 id="代码-1"><a href="#代码-1" class="headerlink" title="代码"></a>代码</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&lt;script&gt;</span><br><span class="line">    <span class="built_in">document</span>.addEventListener(<span class="string">'visibilitychange'</span>, <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (<span class="built_in">document</span>.visibilityState == <span class="string">'hidden'</span>) &#123;</span><br><span class="line">        normal_title = <span class="built_in">document</span>.title;</span><br><span class="line">        <span class="built_in">document</span>.title = <span class="string">'欢迎回到XX博客'</span>;</span><br><span class="line">    &#125; <span class="keyword">else</span> <span class="built_in">document</span>.title = normal_title;</span><br><span class="line">&#125;);</span><br><span class="line">&lt;<span class="regexp">/script&gt;</span></span><br></pre></td></tr></table></figure>
@@ -296,9 +296,9 @@
 
 
     <section class="meta">
-  <time itemprop="dateUpdated" datetime="2018-11-29T22:28:24+08:00" content="2018-11-29-星期四">
+  <time itemprop="dateUpdated" datetime="2018-12-02T12:46:06+08:00" content="2018-12-02-星期日">
     <i class="fas fa-pen fa-fw" aria-hidden="true"></i>
-    本文最后更新于：2018-11-29-星期四
+    本文最后更新于：2018-12-02-星期日
   </time>
   </section>
 
@@ -306,11 +306,11 @@
 
     <div style="text-align: right;">
 
-<a href="javascript:" onclick="window.open('http://service.weibo.com/share/share.php?url=https://www.wushile.top/article/201811031638.html&sharesource=weibo&title=小吴博客：js实现网站的两个小功能<p>今天给大家带来两个通过js实现的小功能，一个是网页内容被复制后会出现一个提示窗口，可以作为一种版权提示，比如“内容已复制…”，另一个功能是在PC端上打开你的博客网站后，如果切换到其他标签栏，离开了当前页面时会改变你博客网站在标签栏上显示的title标题。...&pic=https://www.wushile.top/img/XiaoWuBlog_logo_240x120.png&appkey=2706825840','','height=598,width=711,scrollbars=yes,status =yes')">
+<a href="javascript:" onclick="window.open('http://service.weibo.com/share/share.php?url=https://www.wushile.top/article/201811031638.html&sharesource=weibo&title=小吴博客：js实现网站的两个小功能...&pic=https://www.wushile.top/img/XiaoWuBlog_logo_240x120.png&appkey=2706825840','','height=598,width=711,scrollbars=yes,status =yes')">
 <img style="display: inline; width:55px; height:55px;" src="/img/share-weibo.png"></a>&nbsp;&nbsp;
 
 
-<a href="javascript:" onclick="window.open('https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://www.wushile.top/article/201811031638.html&sharesource=qzone&title=小吴博客&pics=https://www.wushile.top/img/XiaoWuBlog_logo_240x120.png&summary=<p>今天给大家带来两个通过js实现的小功能，一个是网页内容被复制后会出现一个提示窗口，可以作为一种版权提示，比如“内容已复制…”，另一个功能是在PC端上打开你的博客网站后，如果切换到其他标签栏，离开了当前页面时会改变你博客网站在标签栏上显示的title标题。','','height=598,width=711,scrollbars=yes,status =yes')">
+<a href="javascript:" onclick="window.open('https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://www.wushile.top/article/201811031638.html&sharesource=qzone&title=小吴博客&pics=https://www.wushile.top/img/XiaoWuBlog_logo_240x120.png&summary=','','height=598,width=711,scrollbars=yes,status =yes')">
 <img style="display: inline; width:55px; height:55px;" src="/img/share-qzone.png"></a>&nbsp;&nbsp;
 
 

@@ -1061,12 +1061,20 @@ ul.h-list > li {
 .xuxian {
   border-bottom: dashed 2px #eee;
 }
-/*.banner { position: relative; overflow: auto;margin-bottom: 30px;} 
-.banner li { list-style: none; } 
-.banner ul li { float: left; } */
+.banner {
+  position: relative;
+  overflow: auto;
+  margin-bottom: 30px;
+}
+.banner li {
+  list-style: none;
+}
+.banner ul li {
+  float: left;
+}
 .banner-box {
   width: 100%;
-  height: 340px;
+  height: 374px;
   position: relative;
   text-align: center;
   overflow: hidden;

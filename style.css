@@ -1061,6 +1061,76 @@ ul.h-list > li {
 .xuxian {
   border-bottom: dashed 2px #eee;
 }
+/*.banner { position: relative; overflow: auto;margin-bottom: 30px;} 
+.banner li { list-style: none; } 
+.banner ul li { float: left; } */
+.banner-box {
+  width: 100%;
+  height: 340px;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+.banner-box .img {
+  width: 5000px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.banner-box .img li {
+  float: left;
+}
+.banner-box .li {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+}
+.banner-box .li li {
+  width: 10px;
+  height: 10px;
+  background: #ffffff;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 3px;
+  cursor: pointer;
+}
+.banner-box .but {
+  position: absolute;
+  top: 50%;
+  margin-top: -30px;
+  width: 38px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  font-size: 30px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-family: '宋体';
+  cursor: pointer;
+  display: none;
+}
+.banner-box:hover .but {
+  display: block;
+}
+.banner-box .but-left {
+  left: 0;
+}
+.banner-box .but-right {
+  right: 0;
+}
+.banner-box .li .index {
+  background: #0099FF;
+  width: 30px;
+  border-radius: 10px;
+}
+.banner-box .bar {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 5px;
+  background-color: #0099ff8c;
+}
 .l_header {
   position: fixed;
   z-index: 9999;

@@ -45,6 +45,7 @@
   <link rel="icon" href="/img/icon.png">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <link href="//cdn.bootcss.com/node-waves/0.7.5/waves.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.bootcss.com/sweetalert/1.1.3/sweetalert.min.css">
 
  <link rel="stylesheet" href="/style.css">
   <script>
@@ -305,7 +306,7 @@
         </time>
     </section>
 
-    <section class="article typo zdydl">
+        <section class="article typo zdydl">
         <div>
             <a title="点击阅读全文" href="/article/201809161905.html">
                 
@@ -361,7 +362,7 @@
         </time>
     </section>
 
-    <section class="article typo zdydl">
+        <section class="article typo zdydl">
         <div>
             <a title="点击阅读全文" href="/article/201809161305.html">
                 
@@ -868,6 +869,7 @@ function show_runtime(){
 <!-- <script src="/js/get.time.js"></script> -->
 <script src="//cdn.bootcss.com/node-waves/0.7.5/waves.min.js"></script>
 <script src="//cdn.bootcss.com/scrollReveal.js/3.3.2/scrollreveal.min.js"></script>
+<script src="https://cdn.bootcss.com/sweetalert/1.1.3/sweetalert.min.js"></script>
 
 <script src="/js/jquery.fitvids.js"></script>
 
@@ -937,9 +939,7 @@ function out(){
     <script>setLoadingBarProgress(100);</script>
 
 
-<script type="text/javascript">
-document.body.oncopy=function(){alert("小吴博客：复制成功！如需转载文章请注意声明原文出处，谢谢！");}
-</script>
+<script>document.body.oncopy = function() { swal("复制成功", "如需转载文章请注意声明原文出处，谢谢合作！","success");};</script>
 
 
 <script>

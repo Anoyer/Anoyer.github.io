@@ -792,6 +792,11 @@ ul.h-list > li {
   color: #666666;
   cursor: pointer;
   text-decoration: none;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .zdya:hover {
   color: #00AD9F;

@@ -2154,11 +2154,10 @@ ul.h-list > li {
   position: relative;
   width: 100%;
   font-size: 14px;
-  background: rgba(0, 173, 159, 0.1);
+  background: #f7f7f7;
   margin: 1em 0;
   padding: 20px;
   border-left: 10px solid #00AD9F;
-  border-radius: 10px;
   transition: all 0.25s ease;
   -moz-transition: all 0.25s ease;
   -webkit-transition: all 0.25s ease;
@@ -2168,8 +2167,9 @@ ul.h-list > li {
   text-align: left;
   word-wrap: normal;
   margin: 0;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: bold;
 }
 .article blockquote footer strong {
   margin-right: 7px;

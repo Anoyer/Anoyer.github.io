@@ -2940,7 +2940,7 @@ pre .coffeescript .title {
 #u-search .modal .modal-body .modal-results .result .title {
   display: inline-block;
   max-width: 100%;
-  color: #808080;
+  color: #4a4a4a;
   font-size: 16px;
   font-weight: bold;
   padding: 1px;
@@ -2953,11 +2953,10 @@ pre .coffeescript .title {
 #u-search .modal .modal-body .modal-results .result .digest {
   display: block;
   white-space: pre-wrap;
-  overflow: scroll;
   text-overflow: ellipsis;
   font-size: 14px;
   line-height: 1.7;
-  color: #b3b3b3;
+  color: #6b6b6b;
   transition: all 0.25s ease;
   -moz-transition: all 0.25s ease;
   -webkit-transition: all 0.25s ease;

@@ -2089,8 +2089,7 @@ ul.h-list > li {
   position: relative;
   font-family: "Microsoft YaHei", 'Ubuntu', "Source Sans Pro", "Helvetica Neue", Helvetica, "Hiragino Sans GB", "Hiragino Sans GB W3", Menlo, Monaco, Source Han Sans CN Regular, WenQuanYi Micro Hei, Arial, sans-serif;
   font-weight: normal;
-  margin-top: 1.5em;
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
 }
 .article h1.title,
 .article h2.title,
@@ -2111,7 +2110,6 @@ ul.h-list > li {
 .article h1,
 .article h2 {
   color: #00AD9F;
-  margin-top: 2em;
 }
 .article h3:first-child,
 .article h4:first-child,

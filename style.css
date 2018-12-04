@@ -1079,7 +1079,7 @@ ul.h-list > li {
   text-align: center;
   overflow: hidden;
   margin-bottom: 30px;
-  box-shadow: 0 0px 20px 10px #aaa;
+  box-shadow: 0 0px 10px 5px #aaa;
 }
 @media (max-width: 985px) {
   .banner-box {

@@ -1900,7 +1900,6 @@ ul.h-list > li {
       justify-content: space-between;
   -ms-flex-line-pack: center;
       align-content: center;
-  border-left: 2px solid transparent;
   transition: all 0.25s ease;
   -moz-transition: all 0.25s ease;
   -webkit-transition: all 0.25s ease;
@@ -1918,11 +1917,7 @@ ul.h-list > li {
   color: rgba(102, 102, 102, 0.5);
 }
 .m_widget .content ul.entry > li > a:hover {
-  border-left: 4px solid #00AD9F;
-  background: rgba(0, 173, 159, 0.1);
-}
-.m_widget .content ul.entry > li > a:active {
-  border-left: 8px solid #00AD9F;
+  background: rgba(0, 0, 0, 0.1);
 }
 .m_widget.author {
   transition: all 0.25s ease;

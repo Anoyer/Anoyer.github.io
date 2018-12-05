@@ -2109,6 +2109,7 @@ ul.h-list > li {
 }
 .article h1,
 .article h2 {
+  margin-top: 0.5em;
   color: #00AD9F;
 }
 .article h3:first-child,

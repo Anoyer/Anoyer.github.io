@@ -296,7 +296,7 @@
 
     <a title="点击阅读全文" style="text-decoration: none;" href="/article/article-top.html">
         <span class="zdya">
-        修复了文章分享功能的几个bug...完美解决在文章开头直接加入图片、使用标题后可能在首页列表的摘录中显示异常...自定义Banner图...
+        修复了文章分享功能的几个bug...完美解决在文章开头直接加入图片、使用标题后可能在首页列表的摘录中显示异常...自定义Banner图
         </span>
     </a>
 
@@ -798,11 +798,11 @@ $(".zdya").each(function(){
 
        if(len>30 && kuan>500){
            var str="";
-           str=$(this).text().substring(0,66)+"...";
+           str=$(this).text().substring(0,75)+"...";
            $(this).html(str);                   
        }else if (len>30 && kuan<500) {
             var str="";
-           str=$(this).text().substring(0,28)+"...";
+           str=$(this).text().substring(0,35)+"...";
            $(this).html(str);                   
        }
     });

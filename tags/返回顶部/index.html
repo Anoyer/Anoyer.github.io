@@ -294,7 +294,7 @@
 
     <a title="点击阅读全文" style="text-decoration: none;" href="/article/201811171944.html">
         <span class="zdya">
-        今天带给大家的是Martial X主题返回顶部按钮的实现，在看博客的朋友们早就注意到了右下方有一个返回顶部的小按钮，那么接下来就看看它的实现方法吧。...
+        今天带给大家的是Martial X主题返回顶部按钮的实现，在看博客的朋友们早就注意到了右下方有一个返回顶部的小按钮，那么接下来就看看它的实现方法吧。
         </span>
     </a>
 
@@ -796,11 +796,11 @@ $(".zdya").each(function(){
 
        if(len>30 && kuan>500){
            var str="";
-           str=$(this).text().substring(0,66)+"...";
+           str=$(this).text().substring(0,75)+"...";
            $(this).html(str);                   
        }else if (len>30 && kuan<500) {
             var str="";
-           str=$(this).text().substring(0,28)+"...";
+           str=$(this).text().substring(0,35)+"...";
            $(this).html(str);                   
        }
     });

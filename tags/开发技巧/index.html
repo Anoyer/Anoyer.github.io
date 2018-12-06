@@ -294,7 +294,7 @@
 
     <a title="点击阅读全文" style="text-decoration: none;" href="/article/201809240929.html">
         <span class="zdya">
-        一些博客网站的页脚或者侧边栏的位置会显示网站的运行时间，比如“xxx运行了xx天xx小时xx分xx秒”，那我们就来看看这是如何实现的。...
+        一些博客网站的页脚或者侧边栏的位置会显示网站的运行时间，比如“xxx运行了xx天xx小时xx分xx秒”，那我们就来看看这是如何实现的。
         </span>
     </a>
 
@@ -796,11 +796,11 @@ $(".zdya").each(function(){
 
        if(len>30 && kuan>500){
            var str="";
-           str=$(this).text().substring(0,66)+"...";
+           str=$(this).text().substring(0,75)+"...";
            $(this).html(str);                   
        }else if (len>30 && kuan<500) {
             var str="";
-           str=$(this).text().substring(0,28)+"...";
+           str=$(this).text().substring(0,35)+"...";
            $(this).html(str);                   
        }
     });

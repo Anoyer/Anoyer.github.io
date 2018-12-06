@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.wushile.top/"/>
-  <updated>2018-12-02T11:59:13.042Z</updated>
+  <updated>2018-12-06T07:15:51.884Z</updated>
   <id>https://www.wushile.top/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>现在的电脑还需要安装杀毒软件吗？</title>
+    <link href="https://www.wushile.top/article/201812061317.html"/>
+    <id>https://www.wushile.top/article/201812061317.html</id>
+    <published>2018-12-06T05:17:18.000Z</published>
+    <updated>2018-12-06T07:15:51.884Z</updated>
+    
+    <content type="html"><![CDATA[<p>现在使用电脑的人越来越多，不论是公司还是家庭里，电脑上总要安装一款好用的杀毒软件，但是一些配置不高的电脑本身运行软件的性能就不高，而且现在的年轻用户都会选择买一台配置较高的电脑用来玩大型游戏，其性能也可能会因为杀毒软件在后台运行的影响而大打折扣。如此一来，安装杀毒软件的弊端也是较多的，那么现在的电脑真的还需要安装杀毒软件吗？</p><blockquote><p>我先声明下，如果是公司企业的电脑的话，杀毒软件肯定是要装的</p></blockquote><p>随着信息技术的不断发展，如今的网络安全与十几年前相比，有大幅的提高，但新的木马病毒、黑客漏洞也是在不断的发展和变化，网络安全意识依然要有。<br><br>而对于杀毒软件的选择，360安全卫士，因为免费、功能多，所以无疑是用户们的首选，但就如360等其他杀毒软件一样，他们虽然又查杀、防范病毒的功能，还提供了软件下载、备份恢复、手机助手、桌面美化等一大堆集成功能，都是典型的“全家桶”软件，给一些电脑弄得不堪重负。<br><br>现在使用Windows10系统的用户不断增多，就连我也是从Win7系统使用过来的，那么Win10系统已经自带了一个杀毒软件，大家应该都知道，那就是 “Windows Defender”,其实大家可别小看它，它的防护功能也是非常强大的，毕竟也是微软自家的东西，在系统安全方面也肯定是认真的。<br><br><img src="https://img.vim-cn.com/7a/ed058ec3d0ab4e4d8af4a12be16d9ed91eea21.jpg" alt=""></p><blockquote><p>我们先来盘点下我们使用360最常用的一些功能吧：</p></blockquote><h2 id="杀毒"><a href="#杀毒" class="headerlink" title="杀毒"></a>杀毒</h2><p>上面已经说过了，Windows Defender就已经可以胜任了，有些人的Windows Defender可能已经无法使用了，那是因为它已经被原先的杀毒软件摧残的不成样子了，这种情况只好尝试修复或者重装系统解决。何况你每天使用电脑碰的都是病毒吗？只要你不去乱点东西，不乱下乱装软件，这是可以完全避免的，如果说一定要装360也许只是你心里的一个心理上的自我安慰罢了。</p><p><img src="https://img.vim-cn.com/90/e39cf46b9ef036a16d76c6108b20968d93729d.png" alt=""></p><h2 id="清理垃圾"><a href="#清理垃圾" class="headerlink" title="清理垃圾"></a>清理垃圾</h2><p>在开始菜单中的Windows管理工具中，有一项叫做“磁盘清理”，它可以清理掉绝大多数在Windows中的垃圾，除此之外，给大家推荐一个轻量简洁的电脑清理小工具：“Dism++”，它是一个微软Dism的一个图形界面版本,能够固化补丁、Installer清理、离线集成更新、驱动等，可以自由的去除电脑中的各类垃圾，官网：<a href="http://www.chuyu.me" target="_blank" rel="noopener">http://www.chuyu.me</a> 。</p><p><img src="https://img.vim-cn.com/3d/1d190c5bece9be0deb7e9a110563a0480de64d.png" alt=""></p><h2 id="系统修复"><a href="#系统修复" class="headerlink" title="系统修复"></a>系统修复</h2><p>无疑就是更新去掉、系统补丁而已，有时你刚打玩360列出的一批补丁，下一批补丁也即将接踵而至，也许一些人的电脑C盘总是“变红”也许就是这个原因吧。系统好好的为啥要修复？只要你不乱删一些系统的文件、不乱下载东西都是没有问题的，如果你真的担心系统有啥毛病，不如试试Dism++中的系统受损验证与修复吧，只需一个对话框就能告诉你了。</p><h2 id="下载软件"><a href="#下载软件" class="headerlink" title="下载软件"></a>下载软件</h2><p>下载软件无疑是去官网下载更靠谱，因为官网的软件一般都是最新的版本，经常有朋友会遇到这样的情况：在软件管家里下载安装好软件后，软件马上提示你更新。说到更新，在你没有手动关闭软件自动更新的情况下，360会偷偷在后台不知不觉的给你更新软件,装好后再扔给你一个弹窗：XXX已升级成功！XXX已安全的完成更新…</p><h2 id="简洁强大的杀毒软件——火绒安全软件"><a href="#简洁强大的杀毒软件——火绒安全软件" class="headerlink" title="简洁强大的杀毒软件——火绒安全软件"></a>简洁强大的杀毒软件——火绒安全软件</h2><p>也许有的人压根不能接受不装杀毒软件的电脑，但又很讨厌360、电脑管家等大型杀毒软件的全家桶，那么你可以试试火绒安全软件，软件界面友好，十几MB的大小却集成了病毒防御、查杀等各种实时防护，还有垃圾清理、系统修复、启动项管理、弹窗拦截等必备功能。并且后台的总占用根据你需要启用的功能来定（一般占用都极小）。</p><p><img src="https://img.vim-cn.com/68/e692597d2bad727b060da1ba6342e223b0cb90.gif" alt=""><br><br>就拿我的后台来说，总占用还远远不到10MB，完全可以忽略不计。至少可以不用饱受全家桶软件的诟病了。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;现在使用电脑的人越来越多，不论是公司还是家庭里，电脑上总要安装一款好用的杀毒软件，但是一些配置不高的电脑本身运行软件的性能就不高，而且现在的年轻用户都会选择买一台配置较高的电脑用来玩大型游戏，其性能也可能会因为杀毒软件在后台运行的影响而大打折扣。如此一来，安装杀毒软件的弊端
+      
+    
+    </summary>
+    
+      <category term="软件资讯" scheme="https://www.wushile.top/categories/%E8%BD%AF%E4%BB%B6%E8%B5%84%E8%AE%AF/"/>
+    
+    
+      <category term="软件" scheme="https://www.wushile.top/tags/%E8%BD%AF%E4%BB%B6/"/>
+    
+      <category term="安全" scheme="https://www.wushile.top/tags/%E5%AE%89%E5%85%A8/"/>
+    
+  </entry>
+  
+  <entry>
     <title>使用彩虹域名转发系统进行URL转发</title>
     <link href="https://www.wushile.top/article/201812021835.html"/>
     <id>https://www.wushile.top/article/201812021835.html</id>
     <published>2018-12-02T10:35:59.000Z</published>
-    <updated>2018-12-02T11:59:13.042Z</updated>
+    <updated>2018-12-06T05:26:58.575Z</updated>
     
     <content type="html"><![CDATA[<p>所谓URL转发又叫域名转发，它是通过服务器的特殊设置，将访问您当前域名的用户跳转到你指定的另一个网址。一般在域名管理中是有这个功能的，但是有一些限制，就比如西部数码的域名管理平台上，虽然有免费的URL转发服务，但却是国外线路，除非还要另买套餐。所以我们也可以通过一些免费的平台来实现域名转发服务。</p><blockquote><p><font size="4">下面来介绍下如何使用“彩虹域名转发系统”来进行免费URL的转发。</font></p></blockquote><h2 id="注册账户"><a href="#注册账户" class="headerlink" title="注册账户"></a>注册账户</h2><p>域名转发一个重要的条件就是你必须拥有一个自己的域名。打开 <a href="https://url.cccyun.cc" target="_blank" rel="noopener">彩虹域名转发系统</a>。没有账号就注册一个。  <br><br><img src="https://img.vim-cn.com/aa/d10c9feb435cf512d05417af81b3431ed1dd0c.png" alt=""></p><h2 id="添加转发域名"><a href="#添加转发域名" class="headerlink" title="添加转发域名"></a>添加转发域名</h2><p>注册好后进入用户中心，点击左侧菜单的“添加域名转发”,输入你要用来转发的域名，这个域名必须是你自己的。<br>进入你的域名管理平台，将你的域名添加一个CNAME记录，记录值为：    <code>url.cccyun.cc</code>,主机名随便填，比如zhuanfa。</p><p>在域名管理中添加好记录后回到域名转发系统，将你之前设置好的转发域名填进来，也就是zhuanfa.xxx.xxx，注意这里的xxx.xxx是你的域名。</p><h2 id="选择转发类型"><a href="#选择转发类型" class="headerlink" title="选择转发类型"></a>选择转发类型</h2><p>转发类型有两种，一个是显性转发，它就是通过你的转发域名访问目标地址时，直接跳转至你所指定的网址。<br>隐性转发就是当访客访问你的转发域名时，会显示你所指定的网址的内容，比如页面标题、关键字和页面描述（这些需要你设置的），并且地址栏中的网址也不会发生变化。</p>]]></content>
     
@@ -77,7 +104,7 @@
     <link href="https://www.wushile.top/article/article-top.html"/>
     <id>https://www.wushile.top/article/article-top.html</id>
     <published>2018-11-22T03:35:22.000Z</published>
-    <updated>2018-12-06T02:51:30.868Z</updated>
+    <updated>2018-12-06T05:27:12.307Z</updated>
     
     <content type="html"><![CDATA[<h2 id="博客更新（2018-12-04）"><a href="#博客更新（2018-12-04）" class="headerlink" title="博客更新（2018.12.04）"></a>博客更新（2018.12.04）</h2><ul><li>修复了文章分享功能的几个bug。</li></ul><ul><li>可自定义配置摘录，还可自定义配置PC端和移动端限制摘录的字数，不必担心在顶部写摘录时的字数问题（可完美解决在文章开头直接加入图片、使用标题后可能在首页列表的摘录中显示异常的问题）详见MaterialPlus主题文档。</li></ul><ul><li>博客首页可自定义Banner图（固定）与轮播图。</li></ul><ul><li>去除导航栏菜单和侧边栏列表的点击特效（水波纹特效）。</li></ul><ul><li>公告弹窗全新改版。</li></ul><ul><li>其他细节体验优化。</li></ul><blockquote><p>提示：本博客的更新都会与Martial Plus同步</p></blockquote><h2 id="本站主题出售"><a href="#本站主题出售" class="headerlink" title="本站主题出售"></a>本站主题出售</h2><p>本站主题开始正式出售，详情请进入：<a href="https://www.wushile.top/materialplus/index.html">https://www.wushile.top/materialplus/index.html</a><br><br>为了福利各位广大各位小白大白，小吴博客官方专门出品了两部HEXO博客搭建的入门视频教程，视频全程由本博主亲自进行录制解说，精心制作。目前已经全部录制完工，此外对Hexo博客搭建感兴趣或者使用过程中遇到问题的朋友欢迎加入QQ群进行交流。</p><blockquote><p>1.【利用代码托管平台与Hexo搭建个人博客】B站传送门：<br><a href="https://www.bilibili.com/video/av36175038" target="_blank" rel="noopener">https://www.bilibili.com/video/av36175038</a></p></blockquote><blockquote><p>2.【Hexo主题安装配置与创建文章页面】B站传送门：<br><a href="https://www.bilibili.com/video/av36820037" target="_blank" rel="noopener">https://www.bilibili.com/video/av36820037</a></p></blockquote><h2 id="加入交流群"><a href="#加入交流群" class="headerlink" title="加入交流群"></a>加入交流群</h2><p>QQ交流群已成立！群号码：640206628 。欢迎玩HEXO与Martial X的朋友入群交流和学习HEXO与Martial X主题。在群内能多多交流和探讨各种在使用HEXO和Martial X问题中遇到的问题。<br><br>Material X 是网络博主xaoxuu基于Material Flow（一个已经停止维护的主题）改编的一个Hexo博客主题。主题不仅美观大方而且功能丰富，二次修改也很方便，可扩充性强。可以同时自适应PC端和移动端还有平板。是继next主题后的又一hexo主题巨头。<br><br>本群成员可 围绕Material X主题的安装、自定义样式和功能等问题进行交流探讨，同时本群也提供利用github等平台搭建个人博客的技术支持和问题交流。</p><center><img width="30%" src="/img/QqunQR.png"></center><p><center>QQ扫码加群</center></p>]]></content>
     
@@ -578,37 +605,6 @@
       <category term="面向对象" scheme="https://www.wushile.top/tags/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/"/>
     
       <category term="学习" scheme="https://www.wushile.top/tags/%E5%AD%A6%E4%B9%A0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>给网站添加运行时间的JS代码</title>
-    <link href="https://www.wushile.top/article/201809240929.html"/>
-    <id>https://www.wushile.top/article/201809240929.html</id>
-    <published>2018-09-24T01:29:05.000Z</published>
-    <updated>2018-12-02T04:49:21.360Z</updated>
-    
-    <content type="html"><![CDATA[<p>一些博客网站的页脚或者侧边栏的位置会显示网站的运行时间，比如“xxx运行了xx天xx小时xx分xx秒”，那我们就来看看这是如何实现的。</p><p>很简单，只需要在你网站的任意位置添加一段代码即可：</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">id</span>=<span class="string">"runtime_span"</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span>&gt;</span><span class="undefined">function show_runtime()&#123;window.setTimeout("show_runtime()",1000);X=new</span></span><br><span class="line"><span class="undefined">Date("8/22/2018 18:27:00");</span></span><br><span class="line"><span class="undefined">Y=new Date();T=(Y.getTime()-X.getTime());M=24*60*60*1000;</span></span><br><span class="line"><span class="undefined">a=T/M;A=Math.floor(a);b=(a-A)*24;B=Math.floor(b);c=(b-B)*60;C=Math.floor((b-B)*60);D=Math.floor((c-C)*60);</span></span><br><span class="line"><span class="undefined">runtime_span.innerHTML="—— 本站勉强运行: "+A+"天"+B+"小时"+C+"分"+D+"秒 ——"&#125;show_runtime();</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure><h2 id="如图"><a href="#如图" class="headerlink" title="如图"></a>如图</h2><p><img src="https://i.loli.net/2018/09/24/5ba8473100002.png"><br></p><p>你还需要更改<code>Date(&quot;8/22/2018 18:27:00&quot;)</code>中的时间为你的网站成立的日期时间，比如我的网站假如是2018年1月2日8点05分成立的，就更改成<code>Date(&quot;1/2/2018 8:05:00&quot;)</code>就OK了。</p><h2 id="效果展示"><a href="#效果展示" class="headerlink" title="效果展示"></a>效果展示</h2><p><img src="https://i.loli.net/2018/09/24/5ba847b781fea.png"><br></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;一些博客网站的页脚或者侧边栏的位置会显示网站的运行时间，比如“xxx运行了xx天xx小时xx分xx秒”，那我们就来看看这是如何实现的。&lt;/p&gt;
-&lt;p&gt;很简单，只需要在你网站的任意位置添加一段代码即可：&lt;/p&gt;
-&lt;figure class=&quot;highlight html&quot;&gt;&lt;
-      
-    
-    </summary>
-    
-      <category term="前端技术" scheme="https://www.wushile.top/categories/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="js" scheme="https://www.wushile.top/tags/js/"/>
-    
-      <category term="开发技巧" scheme="https://www.wushile.top/tags/%E5%BC%80%E5%8F%91%E6%8A%80%E5%B7%A7/"/>
-    
-      <category term="前端" scheme="https://www.wushile.top/tags/%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   

@@ -835,17 +835,6 @@
 
 
 
-
-<script type="text/javascript">
-if(location.toString().indexOf("/page/") <= -1){
-	document.getElementById("carousel-yc").style.display = "block";
-	document.getElementById("banner-yc").style.display = "block";
-}else {
-	document.getElementById("carousel-yc").style.display = "none";
-	document.getElementById("banner-yc").style.display = "none";
-}
-
-</script>
         </div>
         <aside class='l_side'>
             
@@ -1349,6 +1338,15 @@ document.onkeydown = function(e) {
 
 </script> 
 
+<script defer="true" type="text/javascript">
+var url = window.location.href;
+if(url.indexOf("/page/") >= 0 ) { 
+    
+    document.getElementById("carousel-yc").style.display = "none";
+    
+    
+}
+</script>
 
 <script type="text/javascript">
     $(".zdya").each(function(){

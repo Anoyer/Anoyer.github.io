@@ -980,17 +980,18 @@ function int(){
     }
 }
 </script>
-<!--  
+  
 
 鼠标悬浮显示图片
 
-<script>
 
-<div>
-<span style="cursor: pointer;" onmouseover="over()" onmouseout = "out()">指向这里可以显示图片</span>
-<img src="/img/author.png" style="display:none" id="xf-img"/>
-</div>
 
+<!--  <div>
+ <span style="cursor: pointer;" onmouseover="over()" onmouseout = "out()">指向这里可以显示图片</span>
+ <img src="/img/author.png" style="display:none" id="xf-img"/>
+ </div> -->
+
+<script type="text/javascript">
 function over(){
     img = document.getElementById("xf-img");
     img.style.display = "block";
@@ -1001,7 +1002,7 @@ function out(){
     img.style.display = "none";
 }
 </script>
--->
+
 
     <script>setLoadingBarProgress(100);</script>
 

@@ -988,13 +988,13 @@ ul.h-list > li {
   bottom: 10px;
 }
 .banner-box .li li {
-  width: 10px;
-  height: 10px;
-  background: #ffffff;
-  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  background: rgba(255, 255, 255, 0.35);
+  border-radius: 10px;
   display: inline-block;
-  margin: 0 3px;
   cursor: pointer;
+  margin-right: 10px;
 }
 .banner-box .but {
   position: absolute;
@@ -1020,8 +1020,9 @@ ul.h-list > li {
   right: 0;
 }
 .banner-box .li .index {
-  background: #0099FF;
-  width: 30px;
+  width: 12px;
+  height: 12px;
+  background: #ffffff;
   border-radius: 10px;
 }
 .banner-box .bar {

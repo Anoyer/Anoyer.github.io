@@ -965,7 +965,7 @@ ul.h-list > li {
   text-align: center;
   overflow: hidden;
   margin-bottom: 30px;
-  box-shadow: 0 0px 10px 5px #aaa;
+  box-shadow: 0 10px 20px #aaa;
 }
 @media (max-width: 985px) {
   .banner-box {
@@ -1007,7 +1007,6 @@ ul.h-list > li {
   font-size: 30px;
   background: rgba(0, 0, 0, 0.5);
   color: #fff;
-  font-family: '宋体';
   cursor: pointer;
   display: none;
 }

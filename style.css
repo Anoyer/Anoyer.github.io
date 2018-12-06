@@ -789,15 +789,13 @@ ul.h-list > li {
 .reveal {
   visibility: hidden;
 }
+.zdydl {
+  overflow: hidden;
+}
 .zdya {
   color: #666666;
   cursor: pointer;
   text-decoration: none;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 .zdya:hover {
   color: #00AD9F;
@@ -937,13 +935,6 @@ ul.h-list > li {
   display: block;
   width: 90pt;
   height: 54px;
-}
-.zdydl {
-  word-break: break-all;
-  text-overflow: ellipsis;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
-  overflow: hidden;
 }
 /*夜间模式*/
 .cover {
@@ -2196,20 +2187,6 @@ ul.h-list > li {
   .article code {
     font-size: 12.16px;
   }
-}
-.article .readmore {
-  font-family: "Microsoft YaHei", 'Ubuntu', "Source Sans Pro", "Helvetica Neue", Helvetica, "Hiragino Sans GB", "Hiragino Sans GB W3", Menlo, Monaco, Source Han Sans CN Regular, WenQuanYi Micro Hei, Arial, sans-serif;
-  font-size: .8em;
-  letter-spacing: .1em;
-  margin-top: 50px;
-}
-.article .readmore a {
-  text-decoration: none;
-  display: inline-block;
-  vertical-align: middle;
-  line-height: 2rem;
-  font-weight: bold;
-  padding: .2em 2.4em;
 }
 .article .tags {
   position: relative;

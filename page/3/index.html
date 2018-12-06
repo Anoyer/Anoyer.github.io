@@ -951,6 +951,25 @@ function show_runtime(){
 <script src="//cdn.bootcss.com/scrollReveal.js/3.3.2/scrollreveal.min.js"></script>
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
+<script type="text/javascript">
+    
+$(".zdya").each(function(){
+       var len=$(this).text().length; 
+       var kuan=document.body.scrollWidth;
+
+       if(len>30 && kuan>500){
+           var str="";
+           str=$(this).text().substring(0,66)+"...";
+           $(this).html(str);                   
+       }else if (len>30 && kuan<500) {
+            var str="";
+           str=$(this).text().substring(0,28)+"...";
+           $(this).html(str);                   
+       }
+    });
+
+</script>
+
 <script src="/js/jquery.fitvids.js"></script>
 
 

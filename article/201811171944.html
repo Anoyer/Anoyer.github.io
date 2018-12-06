@@ -383,7 +383,7 @@
         <h4><i class="fa fa-bookmark fa-fw" aria-hidden="true"></i>&nbsp;文章推荐</h4>
         <ul>
             
-                <li><a href="https://www.wushile.top/article/article-top.html">本站主题正在出售中！</a></li>
+                <li><a href="https://www.wushile.top/article/article-top.html">博客更新（2018.12.06）</a></li>
             
                 <li><a href="https://www.wushile.top/article/201811192203.html">小吴原创-Martial X实现文章分享</a></li>
             
@@ -918,6 +918,25 @@ function show_runtime(){
 <script src="//cdn.bootcss.com/node-waves/0.7.5/waves.min.js"></script>
 <script src="//cdn.bootcss.com/scrollReveal.js/3.3.2/scrollreveal.min.js"></script>
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+<script type="text/javascript">
+    
+$(".zdya").each(function(){
+       var len=$(this).text().length; 
+       var kuan=document.body.scrollWidth;
+
+       if(len>30 && kuan>500){
+           var str="";
+           str=$(this).text().substring(0,66)+"...";
+           $(this).html(str);                   
+       }else if (len>30 && kuan<500) {
+            var str="";
+           str=$(this).text().substring(0,28)+"...";
+           $(this).html(str);                   
+       }
+    });
+
+</script>
 
 <script src="/js/jquery.fitvids.js"></script>
 

@@ -837,7 +837,10 @@
 
 
 <script type="text/javascript">
-if(location.toString().indexOf("www.wushile.top" || "sub.wushile.top") <= -1){
+if(location.toString().indexOf("/page/") <= -1){
+	document.getElementById("carousel-yc").style.display = "block";
+	document.getElementById("banner-yc").style.display = "block";
+}else {
 	document.getElementById("carousel-yc").style.display = "none";
 	document.getElementById("banner-yc").style.display = "none";
 }

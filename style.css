@@ -747,7 +747,7 @@ ul.h-list > li {
   width: 0;
   height: 8px;
   height: 54px;
-  background-color: rgba(0, 173, 159, 0.2);
+  background-color: #f7f7f7;
   transition: all 0.25s ease;
   -moz-transition: all 0.25s ease;
   -webkit-transition: all 0.25s ease;
@@ -803,7 +803,7 @@ ul.h-list > li {
 .zdyhr {
   width: 70%;
   text-align: left;
-  margin-bottom: 6px;
+  margin-bottom: 12px;
   border: 0;
   height: 3px;
   background-image: linear-gradient(to right, #24b4f9, #ffaa3a, #a681ff, #ffffff);
@@ -1018,6 +1018,11 @@ ul.h-list > li {
   height: 12px;
   background: #ffffff;
   border-radius: 10px;
+}
+.post_list_img {
+  float: left;
+  width: 80px;
+  height: 80px;
 }
 .l_header {
   position: fixed;
@@ -1989,7 +1994,8 @@ ul.h-list > li {
 }
 .article img {
   position: relative;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   background: white;
   transition: all 0.25s ease;
   -moz-transition: all 0.25s ease;
@@ -2019,6 +2025,7 @@ ul.h-list > li {
 }
 .article p {
   text-align: justify;
+  margin-bottom: 1em;
 }
 .article p strong {
   color: #666666;

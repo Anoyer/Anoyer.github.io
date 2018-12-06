@@ -1033,7 +1033,6 @@ $(".but-left").click(function(){
     oTime = setInterval(function(){
         int();
     },oSj);
-    barAniMate();//进度条函数动画效果
     $(".banner-box .li li").eq(i).addClass('index').siblings().removeClass('index');//给相应的按钮添加样式
 });
 
@@ -1047,7 +1046,6 @@ $(".banner-box .li li").hover(function() {
     bar.stop().css('width',0);
     $(this).addClass('index').siblings().removeClass('index');//给相应的按钮添加样式
 },function(){
-    barAniMate();//进度条函数动画效果
     oTime = setInterval(function(){
         int();
     },oSj);
@@ -1058,15 +1056,6 @@ var oTime = setInterval(function(){
     int();
 },oSj);
 
-barAniMate();//进度条函数动画效果
-
-// //进度条函数动画效果
-// function barAniMate(){
-//     bar.animate({width:'100%'},oSj,function(){
-//         $(this).css('width',0);
-//     });
-// }
-
 //自动轮播函数
 function int(){
     bar.stop().css('width',0);
@@ -1076,7 +1065,6 @@ function int(){
         i = 1;
     }
     oImg.stop().animate({left:-i*880},500);//动画效果
-    barAniMate();//进度条函数动画效果
     clearInterval(oTime);
     oTime = setInterval(function(){
         int();

@@ -1013,24 +1013,11 @@ ul.h-list > li {
 .banner-box:hover .but {
   display: block;
 }
-.banner-box .but-left {
-  left: 0;
-}
-.banner-box .but-right {
-  right: 0;
-}
 .banner-box .li .index {
   width: 12px;
   height: 12px;
   background: #ffffff;
   border-radius: 10px;
-}
-.banner-box .bar {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 5px;
-  background-color: #0099ff8c;
 }
 .l_header {
   position: fixed;

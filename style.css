@@ -597,10 +597,6 @@ a {
   color: #444444;
   cursor: pointer;
   text-decoration: none;
-  transition: all 0.25s ease;
-  -moz-transition: all 0.25s ease;
-  -webkit-transition: all 0.25s ease;
-  -o-transition: all 0.25s ease;
 }
 a:hover {
   text-decoration: none;
@@ -1780,10 +1776,6 @@ ul.h-list > li {
       justify-content: space-between;
   -ms-flex-line-pack: center;
       align-content: center;
-  transition: all 0.25s ease;
-  -moz-transition: all 0.25s ease;
-  -webkit-transition: all 0.25s ease;
-  -o-transition: all 0.25s ease;
 }
 .m_widget .content ul.entry > li > a .name {
   -ms-flex: auto;

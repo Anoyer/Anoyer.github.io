@@ -1023,6 +1023,18 @@ ul.h-list > li {
 .post_list_img:hover {
   opacity: 0.5;
 }
+.topnew-img {
+  float: right;
+  width: 70px;
+  height: 70px;
+}
+@media (max-width: 985px) {
+  .topnew-img {
+    float: right;
+    width: 50px;
+    height: 50px;
+  }
+}
 .l_header {
   position: fixed;
   z-index: 9999;
@@ -1433,7 +1445,7 @@ ul.h-list > li {
 }
 @media (max-width: 985px) {
   .l_main .post {
-    padding: 30px;
+    padding: 30px 15px;
     border-radius: 0;
   }
   .l_main .post:hover {

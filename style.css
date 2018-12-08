@@ -700,20 +700,11 @@ li {
   display: inline-block;
   padding: 0 8px;
   color: #444444;
-  border-left: 10px solid transparent;
   background: transparent;
-  transition: all 0.25s ease;
-  -moz-transition: all 0.25s ease;
-  -webkit-transition: all 0.25s ease;
-  -o-transition: all 0.25s ease;
 }
 .mark a:hover {
-  border-left: 10px solid #00AD9F;
-  padding: 8px;
-  background: rgba(0, 173, 159, 0.1);
-}
-.mark a:active {
-  border-left: 10px solid #00AD9F;
+  border-radius: 50px;
+  background: rgba(0, 0, 0, 0.1);
 }
 ul.h-list {
   display: -ms-flexbox;
@@ -1992,7 +1983,7 @@ ul.h-list > li {
       flex: auto;
   padding: .5em;
   font-size: 16px;
-  color: rgba(102, 102, 102, 0.8);
+  color: #555;
 }
 .article {
   color: #666666;
@@ -2058,10 +2049,6 @@ ul.h-list > li {
 }
 .article a {
   color: #0099FF;
-  transition: all 0.25s ease;
-  -moz-transition: all 0.25s ease;
-  -webkit-transition: all 0.25s ease;
-  -o-transition: all 0.25s ease;
 }
 .article a:before {
   display: none;

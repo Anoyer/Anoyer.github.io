@@ -1464,7 +1464,7 @@ ul.h-list > li {
 }
 @media (max-width: 985px) {
   .l_main .post .meta .title a {
-    font-size: 22px;
+    font-size: 20px;
     display: block;
     overflow: hidden;
     word-break: keep-all;

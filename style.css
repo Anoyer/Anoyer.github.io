@@ -1703,7 +1703,6 @@ ul.h-list > li {
 }
 .m_widget.toc-wrapper ol li a {
   padding: 0 10px 0 15px;
-  font-weight: bold;
   width: 100%;
 }
 .m_widget.toc-wrapper:empty {

@@ -1678,7 +1678,6 @@ ul.h-list > li {
 }
 .m_widget.toc-wrapper a {
   padding-left: 8px;
-  color: rgba(102, 102, 102, 0.6);
   font-size: 14px;
   display: inline-block;
 }
@@ -2107,7 +2106,8 @@ ul.h-list > li {
 }
 .article h3 {
   font-size: 19.2px;
-  color: #333333;
+  color: #484848;
+  font-weight: bold;
 }
 .article h4 {
   font-weight: bold;

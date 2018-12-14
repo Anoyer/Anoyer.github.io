@@ -1647,6 +1647,7 @@ ul.h-list > li {
 .m_widget.toc-wrapper .content a:hover {
   color: #666666;
   border-left: 4px solid #00AD9F;
+  background: rgba(0, 0, 0, 0.1);
 }
 .m_widget.toc-wrapper .content a:active {
   border-left: 8px solid #00AD9F;

@@ -1109,20 +1109,17 @@ ul.h-list > li {
   margin: 0 20px;
 }
 .l_header .menu ul > li > a {
-  transition: all 0.25s ease;
-  -moz-transition: all 0.25s ease;
-  -webkit-transition: all 0.25s ease;
-  -o-transition: all 0.25s ease;
   display: block;
   font-weight: normal;
   font-size: 16px;
-  color: rgba(0, 173, 159, 0.6);
-  padding: 0 8px;
+  color: #888;
+  padding: 0 15px;
+  margin-right: 10px;
 }
 .l_header .menu ul > li > a:hover,
 .l_header .menu ul > li > a.active {
   color: #00AD9F;
-  border-bottom: 4px solid #00AD9F;
+  border-bottom: 2px solid #00AD9F;
 }
 @media (max-width: 985px) {
   .l_header .menu {
@@ -1238,7 +1235,7 @@ ul.h-list > li {
   font-size: 14px;
   margin: 0;
   width: 100%;
-  color: rgba(0, 173, 159, 0.6);
+  color: #000;
   padding-left: 34px;
   height: 34px;
   line-height: 34px;
@@ -1246,7 +1243,7 @@ ul.h-list > li {
   font-weight: normal;
   border: none;
   border-radius: 20px;
-  background: rgba(0, 173, 159, 0.15);
+  background: rgba(0, 0, 0, 0.05);
   box-sizing: border-box;
   -webkit-appearance: none;
   box-shadow: none;
@@ -1262,25 +1259,28 @@ ul.h-list > li {
   }
 }
 .m_search .input ~ .icon {
-  color: rgba(0, 173, 159, 0.6);
+  color: #888;
 }
 .m_search .input::-webkit-input-placeholder {
-  color: rgba(0, 173, 159, 0.6);
+  color: #888;
 }
 .m_search .input:-moz-placeholder {
-  color: rgba(0, 173, 159, 0.6);
+  color: #888;
 }
 .m_search .input::-moz-placeholder {
-  color: rgba(0, 173, 159, 0.6);
+  color: #888;
 }
 .m_search .input:-ms-input-placeholder {
-  color: rgba(0, 173, 159, 0.6);
+  color: #888;
 }
 .m_search .input:hover {
   border: 1px dashed rgba(0, 173, 159, 0.6);
 }
 .m_search .input:focus {
   border: 1px solid rgba(0, 173, 159, 0.6);
+}
+.m_search .input:focus ~ .icon {
+  color: #00AD9F;
 }
 .menu-phone {
   position: fixed;
@@ -1324,11 +1324,9 @@ ul.h-list > li {
   display: block;
   color: #444444;
   padding: 2px 20px;
-  border-left: 2px solid transparent;
 }
 .menu-phone nav .nav:hover {
-  border-left: 4px solid #00AD9F;
-  background: rgba(0, 173, 159, 0.1);
+  background: rgba(0, 0, 0, 0.1);
 }
 .l_main {
   width: calc(100% - 1 * 300px);
@@ -1489,6 +1487,7 @@ ul.h-list > li {
 }
 .l_main .post .meta .cats a {
   font-size: 14px;
+  font-weight: bold;
   color: #0099FF;
   transition: all 0.25s ease;
   -moz-transition: all 0.25s ease;
@@ -1749,7 +1748,6 @@ ul.h-list > li {
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
   background-color: white;
-  color: #00AD9F;
   line-height: 1.5em;
   padding: 8px 20px;
   padding-top: 14px;

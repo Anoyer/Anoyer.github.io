@@ -906,16 +906,17 @@ ul.h-list > li {
   display: inline-block;
 }
 /*hot图标*/
-.hot_gif {
-  position: absolute;
-  top: 2px;
-  left: 585px;
+/*.hot_gif {
+    position: absolute;
+    top: 2px;
+    left: 585px;
 }
+
 .hot_gif_phone {
-  position: absolute;
-  top: 185px;
-  left: 120px;
-}
+    position: absolute;
+    top: 185px;
+    left: 120px;
+  }*/
 /*博客logo*/
 .xwbk-logo {
   cursor: pointer;

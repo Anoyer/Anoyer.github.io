@@ -718,28 +718,6 @@ ul.h-list > li {
   -ms-flex-pack: center;
       justify-content: center;
 }
-/**
- *  Loading bar
- */
-#loading-bar-wrapper {
-  position: fixed;
-  top: 46px;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 999999;
-}
-#loading-bar {
-  position: fixed;
-  width: 0;
-  height: 8px;
-  height: 54px;
-  background-color: #f7f7f7a8;
-  transition: all 0.25s ease;
-  -moz-transition: all 0.25s ease;
-  -webkit-transition: all 0.25s ease;
-  -o-transition: all 0.25s ease;
-}
 .container {
   position: relative;
   width: 100%;
@@ -1286,7 +1264,6 @@ ul.h-list > li {
   position: fixed;
   top: 94px;
   right: 0;
-  width: calc(100% - 2*20px);
   z-index: 10000;
   line-height: 40px;
   background: white;
@@ -1307,12 +1284,6 @@ ul.h-list > li {
   font-size: 16px;
   line-height: 1.8em;
   padding: 8px 26px;
-}
-.menu-phone:hover {
-  box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.1), 0 4px 8px 0px rgba(0, 0, 0, 0.1), 0 4px 8px 0px rgba(0, 0, 0, 0.1), 0 4px 8px 0px rgba(0, 0, 0, 0.1);
-}
-.menu-phone:active {
-  box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.1), 0 2px 4px 0px rgba(0, 0, 0, 0.1);
 }
 .menu-phone nav {
   padding: 10px 0px;

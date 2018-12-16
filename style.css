@@ -1180,7 +1180,7 @@ ul.h-list > li {
 .m_search {
   position: relative;
   height: 34px;
-  width: 320px;
+  width: 300px;
   line-height: 34px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -1300,7 +1300,7 @@ ul.h-list > li {
   background: rgba(0, 0, 0, 0.1);
 }
 .l_main {
-  width: calc(100% - 1 * 320px);
+  width: calc(100% - 1 * 300px);
   padding-right: 20px;
   float: left;
 }
@@ -1575,7 +1575,7 @@ ul.h-list > li {
   }
 }
 .l_side {
-  width: 320px;
+  width: 300px;
   float: right;
   position: relative;
   display: -ms-flexbox;
@@ -1689,7 +1689,7 @@ ul.h-list > li {
   -moz-transition: all 0.25s ease;
   -webkit-transition: all 0.25s ease;
   -o-transition: all 0.25s ease;
-  width: 320px;
+  width: 300px;
   max-height: calc(100% - 54px - 4 * 20px);
 }
 .m_widget:first-child {

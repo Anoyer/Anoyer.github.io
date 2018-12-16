@@ -16,7 +16,47 @@ var customSearch;
 		const $comment = $('.s-comment', $wrapper);
 		const $toc = $('.s-toc', $wrapper);
 		const $top = $('.s-top', $wrapper);
-		
+
+		$wrapper.find('.nav-sub .logo').text(window.subData.title);
+		let pos = document.body.scrollTop;
+		$(document, window).scroll(() => {
+			const scrollTop = $(window).scrollTop();
+			const del = scrollTop - pos;
+			var url = window.location.href;
+
+			if(url.indexOf("/article/") >= 0 ) { 
+				if (del >= 50 && scrollTop > 100) {
+					pos = scrollTop;
+					$wrapper.addClass('sub');
+				} else if (del <= -50) {
+					pos = scrollTop;
+					$wrapper.removeClass('sub');
+				}
+				
+				}else{
+					if (del >= 50 && scrollTop > 100) {
+					pos = scrollTop;
+					$wrapper.addClass('');
+				} else if (del <= -50) {
+					pos = scrollTop;
+					$wrapper.removeClass('');
+				}
+
+			}
+		});
+
+
+
+
+
+
+
+
+
+
+
+
+
 		// bind events to every btn
 		const $commentTarget = $('#comments');
 		if ($commentTarget.length) {
@@ -201,10 +241,6 @@ var customSearch;
 
 
 		$(".article .video-container").fitVids();
-
-		setTimeout(function () {
-			$('#loading-bar-wrapper').fadeOut(500);
-		}, 300);
 
 		if (SEARCH_SERVICE === 'google') {
 			customSearch = new GoogleCustomSearch({

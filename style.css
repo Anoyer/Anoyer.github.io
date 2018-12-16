@@ -1290,7 +1290,7 @@ ul.h-list > li {
 }
 .menu-phone nav .nav {
   height: 36px;
-  line-height: 36px;
+  line-height: 32px;
   position: relative;
   display: block;
   color: #444444;
@@ -1379,7 +1379,6 @@ ul.h-list > li {
   .l_main .post-wrapper {
     padding-left: 0;
     padding-right: 0;
-    height: 230px;
   }
 }
 .l_main .post {

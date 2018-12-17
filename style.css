@@ -1271,10 +1271,6 @@ ul.h-list > li {
   box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.1), 0 4px 8px 0px rgba(0, 0, 0, 0.1), 0 4px 8px 0px rgba(0, 0, 0, 0.1), 0 4px 8px 0px rgba(0, 0, 0, 0.1);
   border-radius: 0px;
   transform: translate3d(calc(100% + 2*20px), 0, 0);
-  transition: all 0.25s ease;
-  -moz-transition: all 0.25s ease;
-  -webkit-transition: all 0.25s ease;
-  -o-transition: all 0.25s ease;
 }
 .menu-phone .header {
   border-top-left-radius: 0px;

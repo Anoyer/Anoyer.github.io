@@ -493,35 +493,6 @@
   </entry>
   
   <entry>
-    <title>CC攻击器安全测试</title>
-    <link href="https://www.wushile.top/article/201810040815.html"/>
-    <id>https://www.wushile.top/article/201810040815.html</id>
-    <published>2018-10-04T00:15:03.000Z</published>
-    <updated>2018-12-02T04:48:25.229Z</updated>
-    
-    <content type="html"><![CDATA[<p>CC攻击器这玩意儿应该有点网络知识的人都知道，它是可以让攻击者借助代理服务器生成指向受害主机的合法请求来实现DDOS和伪装。如果一个网站所使用的服务器配置不高，就会承受不了过多的访问人数，就会导致网站页面的访问速度明显变慢、甚至是服务器和数据库瘫痪。那么CC攻击器也就利用了这一特性。</p><p>CC攻击器现在在百度里面还能搜索到一大堆，可不像VPN软件那样被全局封禁，但我个人认为网上的那些CC软件并不怎么靠谱，我QQ上认识的一位牛逼的大佬自己研发了一款CC攻击器，我用过了效果确实不错。今天就来给大家演示下。</p><h2 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h2><p>打开这款软件后首先会提示你<strong>不要利用本软件做违法的事情</strong>，这个大家都明白哈。之后软件就会自动播放音乐，不喜欢的朋友可以点右下角的“关闭背景音乐按钮”。在攻击网站之前就是需要代理IP，这是最重要的东西，一个网站能承受的攻击范围就取决于攻击IP的多少，为了提升攻击效率，最好你的电脑配置最好也高些。<br><img src="https://i.loli.net/2018/10/04/5bb56b534b9f0.png"></p><h3 id="获取代理IP"><a href="#获取代理IP" class="headerlink" title="获取代理IP"></a>获取代理IP</h3><blockquote><p><font size="4">这里给大家推荐一个提供大量免费代理IP的网站：<strong><a href="http://www.66ip.cn/pt.html" target="_blank" rel="noopener">66免费代理网</a></strong> 。  </font></p></blockquote><p>进入网站后在导航栏选择“免费HTTP提取”。<br><img src="https://s1.ax1x.com/2018/10/04/i3HG3n.png"><br>之后浏览器就会跳转到IP提取页面，你可以看到大量的IP。<br><img src="https://s1.ax1x.com/2018/10/04/i3HB4J.png"><br>你是可以重复提取这些IP的，每次提取的IP地址都不会相同的。</p><h3 id="导入IP"><a href="#导入IP" class="headerlink" title="导入IP"></a>导入IP</h3><p>回到CC攻击器，点击右侧的获取IP按钮，在输入框中粘贴你复制来的代理IP，然后点击下面的“向后追加”按钮，IP就导入成功了。<br><img src="https://s1.ax1x.com/2018/10/04/i3HhUe.png"></p><h3 id="开始攻击"><a href="#开始攻击" class="headerlink" title="开始攻击"></a>开始攻击</h3><p>在攻击器的主界面下方设置线程数，这个取决你电脑配置了，主要看CPU配置，一般配置的不超过线程数不超过10000，配置好的可以设置的更高。接着输入你要攻击的网址或者IP地址，然后你就可以点击右上方的按钮——开始攻击！<br>你可以看到每个IP的访问次数，下方有攻击数据，成功数越大，说明被网站被成功攻击，如果失败数越大，那么这网站很肯能做了一定的防御机制，那就放弃了吧。</p><h2 id="CC攻击器下载"><a href="#CC攻击器下载" class="headerlink" title="CC攻击器下载"></a>CC攻击器下载</h2><p><center><font size="3">网盘链接：<a href="https://www.lanzous.com/i20l5kd" target="_blank" rel="noopener">点击下载</a>  </font></center></p><p><center><strong><font size="4" color="#FE2E2E">（ 郑重提示：软件仅供测试之用，切勿用于违法用途！）</font></strong></center></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;CC攻击器这玩意儿应该有点网络知识的人都知道，它是可以让攻击者借助代理服务器生成指向受害主机的合法请求来实现DDOS和伪装。如果一个网站所使用的服务器配置不高，就会承受不了过多的访问人数，就会导致网站页面的访问速度明显变慢、甚至是服务器和数据库瘫痪。那么CC攻击器也就利用了
-      
-    
-    </summary>
-    
-      <category term="软件资讯" scheme="https://www.wushile.top/categories/%E8%BD%AF%E4%BB%B6%E8%B5%84%E8%AE%AF/"/>
-    
-    
-      <category term="cc攻击" scheme="https://www.wushile.top/tags/cc%E6%94%BB%E5%87%BB/"/>
-    
-      <category term="网络安全" scheme="https://www.wushile.top/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/"/>
-    
-      <category term="软件测试" scheme="https://www.wushile.top/tags/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Web开发和移动开发两种行业的选择</title>
     <link href="https://www.wushile.top/article/201810031737.html"/>
     <id>https://www.wushile.top/article/201810031737.html</id>
@@ -607,6 +578,37 @@
       <category term="面向对象" scheme="https://www.wushile.top/tags/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/"/>
     
       <category term="学习" scheme="https://www.wushile.top/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>给网站添加运行时间的JS代码</title>
+    <link href="https://www.wushile.top/article/201809240929.html"/>
+    <id>https://www.wushile.top/article/201809240929.html</id>
+    <published>2018-09-24T01:29:05.000Z</published>
+    <updated>2018-12-02T04:49:21.360Z</updated>
+    
+    <content type="html"><![CDATA[<p>一些博客网站的页脚或者侧边栏的位置会显示网站的运行时间，比如“xxx运行了xx天xx小时xx分xx秒”，那我们就来看看这是如何实现的。</p><p>很简单，只需要在你网站的任意位置添加一段代码即可：</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">id</span>=<span class="string">"runtime_span"</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span>&gt;</span><span class="undefined">function show_runtime()&#123;window.setTimeout("show_runtime()",1000);X=new</span></span><br><span class="line"><span class="undefined">Date("8/22/2018 18:27:00");</span></span><br><span class="line"><span class="undefined">Y=new Date();T=(Y.getTime()-X.getTime());M=24*60*60*1000;</span></span><br><span class="line"><span class="undefined">a=T/M;A=Math.floor(a);b=(a-A)*24;B=Math.floor(b);c=(b-B)*60;C=Math.floor((b-B)*60);D=Math.floor((c-C)*60);</span></span><br><span class="line"><span class="undefined">runtime_span.innerHTML="—— 本站勉强运行: "+A+"天"+B+"小时"+C+"分"+D+"秒 ——"&#125;show_runtime();</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure><h2 id="如图"><a href="#如图" class="headerlink" title="如图"></a>如图</h2><p><img src="https://i.loli.net/2018/09/24/5ba8473100002.png"><br></p><p>你还需要更改<code>Date(&quot;8/22/2018 18:27:00&quot;)</code>中的时间为你的网站成立的日期时间，比如我的网站假如是2018年1月2日8点05分成立的，就更改成<code>Date(&quot;1/2/2018 8:05:00&quot;)</code>就OK了。</p><h2 id="效果展示"><a href="#效果展示" class="headerlink" title="效果展示"></a>效果展示</h2><p><img src="https://i.loli.net/2018/09/24/5ba847b781fea.png"><br></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;一些博客网站的页脚或者侧边栏的位置会显示网站的运行时间，比如“xxx运行了xx天xx小时xx分xx秒”，那我们就来看看这是如何实现的。&lt;/p&gt;
+&lt;p&gt;很简单，只需要在你网站的任意位置添加一段代码即可：&lt;/p&gt;
+&lt;figure class=&quot;highlight html&quot;&gt;&lt;
+      
+    
+    </summary>
+    
+      <category term="前端技术" scheme="https://www.wushile.top/categories/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="js" scheme="https://www.wushile.top/tags/js/"/>
+    
+      <category term="开发技巧" scheme="https://www.wushile.top/tags/%E5%BC%80%E5%8F%91%E6%8A%80%E5%B7%A7/"/>
+    
+      <category term="前端" scheme="https://www.wushile.top/tags/%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   

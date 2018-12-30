@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.wushile.top/"/>
-  <updated>2018-12-30T14:41:55.769Z</updated>
+  <updated>2018-12-30T14:50:08.259Z</updated>
   <id>https://www.wushile.top/</id>
   
   <author>
@@ -21,16 +21,17 @@
     <link href="https://www.wushile.top/article/zhiqianxin-liecode.html"/>
     <id>https://www.wushile.top/article/zhiqianxin-liecode.html</id>
     <published>2018-12-30T14:33:01.000Z</published>
-    <updated>2018-12-30T14:41:55.769Z</updated>
+    <updated>2018-12-30T14:50:08.259Z</updated>
     
-    <content type="html"><![CDATA[<p>由于今天我因为一些个人情绪和争议而联合我的朋友攻击了猎码（liecode）的官网，之后非常后悔自己的恶劣行为，在此进行道歉的公示！</p><p><img src="&quot;/img/daoqianxin-liecode-1.jpg&quot;" alt=""></p><center>道歉信-1</center><p><img src="&quot;/img/daoqianxin-liecode-2.jpg&quot;" alt=""></p><center>道歉信-2</center><h3 id="（道歉信将从明日起会公示一周）"><a href="#（道歉信将从明日起会公示一周）" class="headerlink" title="（道歉信将从明日起会公示一周）"></a>（道歉信将从明日起会公示一周）</h3>]]></content>
+    <content type="html"><![CDATA[<p>由于今天我因为一些个人情绪和争议而联合我的朋友攻击了猎码（liecode）的官网，之后非常后悔自己的恶劣行为，在此进行道歉的公示！</p><p><img src="/img/daoqianxin-liecode-1.jpg"></p><center>道歉信-1</center><br><hr><br><img src="/img/daoqianxin-liecode-2.jpg"><br><br><center>道歉信-2</center><h3 id="（道歉信将从明日开始公示一周）"><a href="#（道歉信将从明日开始公示一周）" class="headerlink" title="（道歉信将从明日开始公示一周）"></a>（道歉信将从明日开始公示一周）</h3>]]></content>
     
     <summary type="html">
     
       
       
         &lt;p&gt;由于今天我因为一些个人情绪和争议而联合我的朋友攻击了猎码（liecode）的官网，之后非常后悔自己的恶劣行为，在此进行道歉的公示！&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;&amp;quot;/img/daoqianxin-liecode-1.jpg&amp;quot;&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/daoqianxin-liecode-1.jpg&quot;&gt;&lt;/p&gt;
+&lt;center&gt;道歉信-1&lt;/cen
       
     
     </summary>
@@ -153,7 +154,7 @@
     <link href="https://www.wushile.top/article/article-top.html"/>
     <id>https://www.wushile.top/article/article-top.html</id>
     <published>2018-11-22T03:35:22.000Z</published>
-    <updated>2018-12-16T10:50:01.795Z</updated>
+    <updated>2018-12-30T14:44:21.383Z</updated>
     
     <content type="html"><![CDATA[<h2 id="博客更新内容"><a href="#博客更新内容" class="headerlink" title="博客更新内容"></a>博客更新内容</h2><ol><li><p>新增粒子网背景特效，可在config中自定义设置相关参数。</p></li><li><p>顶部公告取消按钮关闭方案，改用可自定义的链接名称与链接，可在config中直接设置。</p></li><li><p>使用焕然一新的文章列表的new和top图标，并且优化了在移动端上显示的尺寸与边距。</p></li><li><p>修复目录定位按钮在火狐浏览器下点击会自动打开新标签页的问题。</p></li><li><p>为了保证hover的灵活性，在其他如侧边栏列表、文章归档页面等地方都去除了transition效果。</p></li><li><p>导航栏（包含移动端）全新改版，去除了图标和顶部加载动画并改善了指示条等；修复了在浏览独立页面的情况下导航栏跳出空白的情况。（由于导航栏图标已去除，所以需要在config文件的导航栏配置中删除icon项）。</p></li><li><p>其他页面尺寸、边距以及细节体验的优化调整。</p></li></ol><blockquote><p>提示：本博客的更新都会与Martial Plus同步</p></blockquote><h2 id="本站主题出售"><a href="#本站主题出售" class="headerlink" title="本站主题出售"></a>本站主题出售</h2><p>本站主题开始正式出售，详情请进入：<a href="https://www.wushile.top/materialplus/index.html">https://www.wushile.top/materialplus/index.html</a><br>为了福利各位广大各位小白大白，小吴博客官方专门出品了两部HEXO博客搭建的入门视频教程，视频全程由本博主亲自进行录制解说，精心制作。目前已经全部录制完工，此外对Hexo博客搭建感兴趣或者使用过程中遇到问题的朋友欢迎加入QQ群进行交流。</p><blockquote><p>1.【利用代码托管平台与Hexo搭建个人博客】B站传送门：<br><a href="https://www.bilibili.com/video/av36175038" target="_blank" rel="noopener">https://www.bilibili.com/video/av36175038</a></p></blockquote><blockquote><p>2.【Hexo主题安装配置与创建文章页面】B站传送门：<br><a href="https://www.bilibili.com/video/av36820037" target="_blank" rel="noopener">https://www.bilibili.com/video/av36820037</a></p></blockquote><h2 id="加入交流群"><a href="#加入交流群" class="headerlink" title="加入交流群"></a>加入交流群</h2><p>QQ交流群已成立！群号码：640206628 。欢迎玩HEXO与Martial X的朋友入群交流和学习HEXO与Martial X主题。群成员可围绕HEXO以及Material X主题的安装、配置、修改等问题进行交流探讨。</p><center><img width="30%" src="/img/QqunQR.png"></center><p><center>QQ扫码加群</center></p>]]></content>
     

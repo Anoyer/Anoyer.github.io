@@ -911,7 +911,8 @@ ul.h-list > li {
   z-index: 99999;
 }
 .xuxian {
-  border-bottom: dashed 2px #eee;
+  background: #fff url(img/h3_bor.png) left bottom no-repeat;
+  margin-left: 10px;
 }
 .banner {
   position: relative;
@@ -1707,10 +1708,9 @@ ul.h-list > li {
       justify-content: space-between;
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
-  color: #00AD9F;
+  color: #000;
   background-color: white;
   line-height: 1.5em;
-  padding: 8px 20px;
   padding-top: 14px;
   padding-bottom: 14px;
 }
@@ -1720,10 +1720,11 @@ ul.h-list > li {
   }
 }
 .m_widget .header .rightBtn {
-  color: #00AD9F;
+  margin-right: 20px;
+  color: #0099FF;
 }
 .m_widget .header .rightBtn:hover {
-  color: #002e2a;
+  color: #68c2ff;
 }
 .m_widget .content {
   margin-top: 10px;
@@ -1818,7 +1819,6 @@ ul.h-list > li {
   padding: 4px 20px;
 }
 .m_widget.author .social-wrapper a {
-  color: #00AD9F;
   transition: all 0.25s ease;
   -moz-transition: all 0.25s ease;
   -webkit-transition: all 0.25s ease;
@@ -1827,7 +1827,7 @@ ul.h-list > li {
 .m_widget.author .social-wrapper a:hover {
   color: #00AD9F;
 }
-.m_widget.author .social-wrapper a.social {
+.social-email {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
@@ -1838,11 +1838,69 @@ ul.h-list > li {
   height: 32px;
   margin: 4px;
   border-radius: 5px;
-  border: 1px solid #00AD9F;
+  border: 1px solid #3eb92a;
   margin-bottom: 10px;
 }
-.m_widget.author .social-wrapper a.social:hover {
-  background: #00AD9F;
+.social-email:hover {
+  background: #FFF;
+  opacity: 0.5;
+  color: #ffffff;
+}
+.social-qq {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  width: 32px;
+  height: 32px;
+  margin: 4px;
+  border-radius: 5px;
+  border: 1px solid #12b7f5;
+  margin-bottom: 10px;
+}
+.social-qq:hover {
+  background: #FFF;
+  opacity: 0.5;
+  color: #ffffff;
+}
+.social-bilibili {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  width: 32px;
+  height: 32px;
+  margin: 4px;
+  border-radius: 5px;
+  border: 1px solid #f45a8d;
+  margin-bottom: 10px;
+}
+.social-bilibili:hover {
+  background: #FFF;
+  opacity: 0.5;
+  color: #ffffff;
+}
+.social-rss {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  width: 32px;
+  height: 32px;
+  margin: 4px;
+  border-radius: 5px;
+  border: 1px solid #FF6633;
+  margin-bottom: 10px;
+}
+.social-rss:hover {
+  background: #FFF;
+  opacity: 0.5;
   color: #ffffff;
 }
 /*通知侧边栏样式*/

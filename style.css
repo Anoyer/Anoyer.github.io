@@ -766,12 +766,16 @@ ul.h-list > li {
   color: #00AD9F;
 }
 .zdyhr {
-  width: 70%;
-  text-align: left;
-  margin-bottom: 12px;
+  text-align: center;
+  margin-bottom: 20px;
   border: 0;
-  height: 3px;
-  background-image: linear-gradient(to right, #24b4f9, #ffaa3a, #a681ff, #ffffff);
+  height: 1px;
+  background-image: linear-gradient(to right, #ffffff, #0099FF, #00AD9F, #0099FF, #ffffff);
+}
+@media (max-width: 985px) {
+  .zdyhr {
+    margin-top: 10px;
+  }
 }
 /*按钮基础样式*/
 .button {
@@ -1091,7 +1095,7 @@ ul.h-list > li {
   display: block;
   font-weight: normal;
   font-size: 16px;
-  color: #888;
+  color: #333;
   padding: 0 15px;
   margin-right: 10px;
 }
@@ -1415,6 +1419,7 @@ ul.h-list > li {
 .l_main .post .meta .title {
   left: 0;
   font-size: 25px;
+  text-align: center;
 }
 @media (max-width: 985px) {
   .l_main .post .meta .title {
@@ -1445,7 +1450,7 @@ ul.h-list > li {
 .l_main .post .meta time,
 .l_main .post .meta .cats {
   display: inline-block;
-  font-size: 13.3px;
+  font-size: 15px;
 }
 .l_main .post .meta .cats:before {
   color: #b5b5b5;
@@ -1469,7 +1474,7 @@ ul.h-list > li {
   color: #002e2a;
 }
 .l_main .post .meta time {
-  color: #b5b5b5;
+  color: #99;
   margin-bottom: 20px;
 }
 @media (max-width: 985px) {

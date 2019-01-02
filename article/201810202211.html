@@ -992,11 +992,13 @@ function int(){
             {
                 var s = document.body.scrollTop || document.documentElement.scrollTop
                 if(s>H) {
-                    if (url.indexOf("www.wushile.top/") || url.indexOf("sub.wushile.top/") == 9) {
+                    if (url.indexOf("www.wushile.top/") || url.indexOf("sub.wushile.top/") != -1) {
                         oDiv.style = ""
+                    }else{
+                        oDiv.style = "position:fixed;top:50px;"
                     }
                 }else{
-                    oDiv.style = "position:fixed;top:50px;"
+                    oDiv.style = ""
                 }
             }
         }

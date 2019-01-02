@@ -1033,15 +1033,18 @@ function int(){
             window.onscroll = function()
             {
                 var s = document.body.scrollTop || document.documentElement.scrollTop
-                if(s>H) {
+                if(s>H || url.indexOf("wushile.top") != -1) {
                     oDiv.style = "position:fixed;top:50px;"
-                } else if(url != "www.wushile.top" || "sub.wushile.top" ) { 
-                    oDiv.style = ""
-                } else{
+                }else{
                     oDiv.style = ""
                 }
             }
         }
+
+
+
+
+
 </script>
 
 

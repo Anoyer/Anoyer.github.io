@@ -997,8 +997,10 @@ function int(){
             window.onscroll = function()
             {
                 var s = document.body.scrollTop || document.documentElement.scrollTop
-                if(s>H || url.indexOf("wushile.top") != -1) {
-                    oDiv.style = "position:fixed;top:50px;"
+                if(s>H) {
+                    if (url.indexOf("wushile.top") != -1) {
+                        oDiv.style = "position:fixed;top:50px;"
+                    }
                 }else{
                     oDiv.style = ""
                 }

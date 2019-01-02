@@ -47,16 +47,6 @@ var customSearch;
 
 
 
-
-
-
-
-
-
-
-
-
-
 		// bind events to every btn
 		const $commentTarget = $('#comments');
 		if ($commentTarget.length) {

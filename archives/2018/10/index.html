@@ -45,6 +45,7 @@
   <link rel="icon" href="/img/icon.png">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <link href="//cdn.bootcss.com/node-waves/0.7.5/waves.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/css/swiper.min.css">
 
  <link rel="stylesheet" href="/style.css">
  
@@ -997,6 +998,7 @@ function show_runtime(){
 <script src="//cdn.bootcss.com/node-waves/0.7.5/waves.min.js"></script>
 <script src="//cdn.bootcss.com/scrollReveal.js/3.3.2/scrollreveal.min.js"></script>
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/js/swiper.min.js"></script>
 
 
 
@@ -1095,88 +1097,6 @@ if(url.indexOf("/page/") >= 0 ) {
 
 
 <script type="text/javascript">
-var oSj = 5000;
-var i = 0;
-var bar = $(".banner-box .bar");
-var oImg = $(".banner-box .img");//获取图片盒子
-var oImgfirst= $('.banner-box .img li:first').clone();//复制第一张图片
-oImg.append(oImgfirst);//将复制的第一张图片放到最后
-var imgNum = $(".banner-box .img li").size();//获取图片数量
-
-//根据图片个数添加圆点按钮
-for(var j=1;j<=imgNum-1;j++){
-    $('.banner-box .li').append('<li></li>');
-}
-
-//给第一个按钮添加选中样式
-$('.banner-box .li li:first').addClass('index');
-
-
-//点击向右轮播
-$(".but-right").click(function(){
-    int();
-});
-
-//点击向左轮播
-$(".but-left").click(function(){
-    bar.stop().css('width',0);
-    i--;
-    if(i == -1){
-        $('.banner-box .img').css('left',-(imgNum-1)*880);//用CSS进行图片位置变换，达到无缝拼接效果
-        i = imgNum-2;
-    }
-    oImg.stop().animate({left:-i*880},500);//动画效果
-    clearInterval(oTime);
-    oTime = setInterval(function(){
-        int();
-    },oSj);
-    $(".banner-box .li li").eq(i).addClass('index').siblings().removeClass('index');//给相应的按钮添加样式
-});
-
-//鼠标移动到圆点后轮播
-$(".banner-box .li li").hover(function() {
-    clearInterval(oTime);//清除定时器
-    bar.stop().css('width',0);
-    var index = $(this).index();
-    i=index;
-    oImg.stop().animate({left:-index*880},500);//动画效果
-    bar.stop().css('width',0);
-    $(this).addClass('index').siblings().removeClass('index');//给相应的按钮添加样式
-},function(){
-    oTime = setInterval(function(){
-        int();
-    },oSj);
-});
-
-//自动轮播
-var oTime = setInterval(function(){
-    int();
-},oSj);
-
-//自动轮播函数
-function int(){
-    bar.stop().css('width',0);
-    i++;
-    if(i == imgNum){
-        oImg.css('left',0);//用CSS进行图片位置变换，达到无缝拼接效果
-        i = 1;
-    }
-    oImg.stop().animate({left:-i*880},500);//动画效果
-    clearInterval(oTime);
-    oTime = setInterval(function(){
-        int();
-    },oSj);
-    if(i == imgNum-1){
-        $(".banner-box .li li").eq(0).addClass('index').siblings().removeClass('index');//给相应的按钮添加样式
-
-    }else{
-        $(".banner-box .li li").eq(i).addClass('index').siblings().removeClass('index');//给相应的按钮添加样式
-    }
-}
-</script>
-
-
-<script type="text/javascript">
     var url = window.location.href;
     window.onload=
         function(){
@@ -1190,7 +1110,7 @@ function int(){
             window.onscroll = function()
             {
                 var s = document.body.scrollTop || document.documentElement.scrollTop
-                if(s>H && url.indexOf("html") == -1) {
+                if(s>H && url.indexOf(".html") == -1) {
                     oDiv.style = "position:fixed;top:50px;"
                 } else {
                     oDiv.style = ""
@@ -1203,7 +1123,28 @@ function int(){
 
 
 
+<script>        
+  var mySwiper = new Swiper ('.swiper-container', {
+    effect: 'slide',
+    loop: true, // 循环模式选项
+    autoplay: true,//可选选项，自动滑动
+    mousewheel: true,
 
+    // 如果需要分页器
+    pagination: {
+      el: '.swiper-pagination',
+    },
+    
+    // 如果需要前进后退按钮
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    
+  })  
+
+
+  </script>
 
 
 <script>document.body.oncopy = function() { swal("复制成功", "如需转载文章请注意声明原文出处，谢谢合作！","success");};</script>

@@ -1760,16 +1760,16 @@ ul.h-list > li {
 }
 .m_widget.author .content {
   padding-bottom: 0;
-  padding: 10px 20px 0 20px;
+  padding: 95px 20px 0 20px;
+}
+@media (max-width: 1130px) {
+  .m_widget.author .content {
+    margin-top: 20px;
+  }
 }
 .m_widget.author .content p {
   font-size: 16px;
   text-align: center;
-}
-@media (max-width: 1130px) {
-  .m_widget.author .content {
-    padding: 10px 20px;
-  }
 }
 .m_widget.author .social-wrapper {
   margin-top: 20px;

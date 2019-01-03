@@ -924,73 +924,6 @@ ul.h-list > li {
   overflow: auto;
   margin-bottom: 30px;
 }
-.banner li {
-  list-style: none;
-}
-.banner ul li {
-  float: left;
-}
-.banner-box {
-  width: 100%;
-  height: 300px;
-  position: relative;
-  text-align: center;
-  overflow: hidden;
-  margin-bottom: 30px;
-  box-shadow: 0 10px 20px #aaa;
-}
-@media (max-width: 985px) {
-  .banner-box {
-    display: none;
-  }
-}
-.banner-box .img {
-  width: 5000px;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-.banner-box .img li {
-  float: left;
-}
-.banner-box .li {
-  width: 100%;
-  position: absolute;
-  left: 0;
-  bottom: 10px;
-}
-.banner-box .li li {
-  width: 12px;
-  height: 12px;
-  background: rgba(255, 255, 255, 0.35);
-  border-radius: 10px;
-  display: inline-block;
-  cursor: pointer;
-  margin-right: 10px;
-}
-.banner-box .but {
-  position: absolute;
-  top: 50%;
-  margin-top: -30px;
-  width: 38px;
-  height: 60px;
-  line-height: 60px;
-  text-align: center;
-  font-size: 30px;
-  background: rgba(0, 0, 0, 0.5);
-  color: #fff;
-  cursor: pointer;
-  display: none;
-}
-.banner-box:hover .but {
-  display: block;
-}
-.banner-box .li .index {
-  width: 12px;
-  height: 12px;
-  background: #ffffff;
-  border-radius: 10px;
-}
 .post_list_img {
   float: left;
   width: 80px;
@@ -1012,6 +945,29 @@ ul.h-list > li {
     margin-top: 8px;
     width: 40px;
   }
+}
+.swiper-container {
+  margin-bottom: 15px;
+}
+@media (max-width: 1216px) {
+  .swiper-container {
+    display: none;
+  }
+}
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  background: #fff;
+}
+.swiper-button-next,
+.swiper-container-rtl .swiper-button-prev {
+  background-image: url(/img/right_btn.png);
+  right: 10px;
+  left: auto;
+}
+.swiper-button-prev {
+  background-image: url(/img/left_btn.png);
+  left: 10px;
+  right: auto;
 }
 .l_header {
   position: fixed;

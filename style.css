@@ -475,7 +475,7 @@ th {
 html {
   width: 100%;
   height: 100%;
-  padding-top: 54px;
+  padding-top: 65px;
   font-family: "Microsoft YaHei", 'Ubuntu', "Source Sans Pro", "Helvetica Neue", Helvetica, "Hiragino Sans GB", "Hiragino Sans GB W3", Menlo, Monaco, Source Han Sans CN Regular, WenQuanYi Micro Hei, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5rem;
@@ -904,8 +904,8 @@ ul.h-list > li {
 .xwbk-logo {
   cursor: pointer;
   display: block;
-  width: 90pt;
-  height: 54px;
+  margin-right: 10px;
+  height: 65px;
 }
 /*夜间模式*/
 .cover {
@@ -976,8 +976,8 @@ ul.h-list > li {
   left: 0;
   width: 100%;
   font-size: 16px;
-  line-height: 54px;
-  height: 54px;
+  line-height: 65px;
+  height: 65px;
   overflow: hidden;
   font-family: "Microsoft YaHei", 'Ubuntu', "Source Sans Pro", "Helvetica Neue", Helvetica, "Hiragino Sans GB", "Hiragino Sans GB W3", Menlo, Monaco, Source Han Sans CN Regular, WenQuanYi Micro Hei, Arial, sans-serif;
   font-weight: bold;
@@ -1000,7 +1000,7 @@ ul.h-list > li {
   -moz-transition: all 0.25s ease;
   -webkit-transition: all 0.25s ease;
   -o-transition: all 0.25s ease;
-  transform: translateY(-54px);
+  transform: translateY(-65px);
 }
 @media (max-width: 1130px) {
   .l_header .wrapper.sub .logo {
@@ -1015,15 +1015,15 @@ ul.h-list > li {
 }
 .l_header .nav--main,
 .l_header .nav-sub {
-  height: 54px;
+  height: 65px;
 }
 .l_header,
 .l_header a {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  height: 54px;
-  line-height: 54px;
+  height: 65px;
+  line-height: 65px;
   color: #00AD9F;
 }
 .l_header .logo {
@@ -1042,7 +1042,7 @@ ul.h-list > li {
   position: relative;
   -ms-flex: 1 0 auto;
       flex: 1 0 auto;
-  height: 54px;
+  height: 65px;
   transition: all 0.25s ease;
   -moz-transition: all 0.25s ease;
   -webkit-transition: all 0.25s ease;
@@ -1050,12 +1050,12 @@ ul.h-list > li {
   margin: 0 20px;
 }
 .l_header .menu ul > li > a {
-  display: block;
   font-weight: normal;
   font-size: 18px;
   color: #333;
   padding: 0 15px;
   margin-right: 10px;
+  padding-bottom: 10px;
 }
 .l_header .menu ul > li > a:hover,
 .l_header .menu ul > li > a.active {
@@ -1070,10 +1070,10 @@ ul.h-list > li {
 .l_header .switcher {
   display: none;
   font-size: 16px;
-  line-height: 54px;
+  line-height: 65px;
 }
 .l_header .switcher > li {
-  height: 34px;
+  height: 45px;
   transition: all 0.25s ease;
   -moz-transition: all 0.25s ease;
   -webkit-transition: all 0.25s ease;
@@ -1082,8 +1082,8 @@ ul.h-list > li {
 }
 @media (max-width: 1130px) {
   .l_header .switcher > li {
-    width: 34px;
-    height: 34px;
+    width: 45px;
+    height: 45px;
   }
 }
 .l_header .switcher > li a {
@@ -1093,21 +1093,21 @@ ul.h-list > li {
       justify-content: center;
   -ms-flex-align: center;
       align-items: center;
-  width: 34px;
-  height: 34px;
+  width: 45px;
+  height: 45px;
   border-radius: 100px;
   transition: all 0.25s ease;
   -moz-transition: all 0.25s ease;
   -webkit-transition: all 0.25s ease;
   -o-transition: all 0.25s ease;
 }
-.l_header .switcher > li a:hover {
+.l_header .switcher > li a:active {
   background: #e6e6e6;
 }
 @media (max-width: 1130px) {
   .l_header .switcher > li a {
-    width: 34px;
-    height: 34px;
+    width: 45px;
+    height: 45px;
   }
 }
 @media (max-width: 1130px) {
@@ -1142,9 +1142,9 @@ ul.h-list > li {
 }
 .m_search {
   position: relative;
-  height: 34px;
+  height: 45px;
   width: 300px;
-  line-height: 34px;
+  line-height: 45px;
   margin-top: 10px;
   margin-bottom: 10px;
   vertical-align: middle;
@@ -1164,9 +1164,9 @@ ul.h-list > li {
 .m_search .icon {
   position: absolute;
   display: block;
-  height: 34px;
-  width: 34px;
-  line-height: 34px;
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
   top: 0;
   left: 10px;
   font-size: 14px;
@@ -1178,8 +1178,8 @@ ul.h-list > li {
   width: 100%;
   color: #000;
   padding-left: 34px;
-  height: 34px;
-  line-height: 34px;
+  height: 45px;
+  line-height: 45px;
   font-family: "Microsoft YaHei", 'Ubuntu', "Source Sans Pro", "Helvetica Neue", Helvetica, "Hiragino Sans GB", "Hiragino Sans GB W3", Menlo, Monaco, Source Han Sans CN Regular, WenQuanYi Micro Hei, Arial, sans-serif;
   font-weight: normal;
   border: none;
@@ -1225,7 +1225,7 @@ ul.h-list > li {
 }
 .menu-phone {
   position: fixed;
-  top: 94px;
+  top: 105px;
   right: 0;
   z-index: 10000;
   line-height: 40px;
@@ -1555,7 +1555,7 @@ ul.h-list > li {
   border-radius: 0px;
   position: -webkit-sticky;
   position: sticky;
-  top: 74px;
+  top: 85px;
   transition: all 0.25s ease;
   -moz-transition: all 0.25s ease;
   -webkit-transition: all 0.25s ease;
@@ -1598,7 +1598,7 @@ ul.h-list > li {
   .m_widget.toc-wrapper {
     position: fixed;
     width: calc(100% - 2 * 20px);
-    top: 74px;
+    top: 85px;
     left: 20px;
     box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.1), 0 4px 8px 0px rgba(0, 0, 0, 0.1), 0 4px 8px 0px rgba(0, 0, 0, 0.1), 0 4px 8px 0px rgba(0, 0, 0, 0.1);
     display: none;
@@ -1650,7 +1650,7 @@ ul.h-list > li {
   -webkit-transition: all 0.25s ease;
   -o-transition: all 0.25s ease;
   width: 300px;
-  max-height: calc(100% - 54px - 4 * 20px);
+  max-height: calc(100% - 65px - 4 * 20px);
 }
 .m_widget:first-child {
   margin-top: 0;
@@ -1693,7 +1693,7 @@ ul.h-list > li {
   margin-top: 10px;
   text-align: justify;
   padding: 10px;
-  max-height: calc(100% - 54px - 12.5 * 20px);
+  max-height: calc(100% - 65px - 12.5 * 20px);
 }
 .m_widget .content ul.entry > li > a {
   padding: 0 20px;
@@ -2573,7 +2573,7 @@ pre .coffeescript .title {
 #u-search .modal .modal-header {
   position: relative;
   width: 100%;
-  height: 54px;
+  height: 65px;
   background-color: white;
   z-index: 3;
   border-top-left-radius: 0px;
@@ -2593,13 +2593,13 @@ pre .coffeescript .title {
   display: block;
   position: absolute;
   width: 55px;
-  height: 54px;
+  height: 65px;
   top: 0;
   right: 0;
   color: #00AD9F;
   cursor: pointer;
   text-align: center;
-  line-height: 54px;
+  line-height: 65px;
   vertical-align: middle;
   font-size: 1.3em;
   transition: all 0.25s ease;
@@ -2640,7 +2640,7 @@ pre .coffeescript .title {
 #u-search .modal .modal-header #u-search-modal-form #u-search-modal-input {
   width: 100%;
   padding: 0px 50px;
-  height: 54px;
+  height: 65px;
   font-size: 16px;
   line-height: 1.7;
   vertical-align: middle;
@@ -2670,7 +2670,7 @@ pre .coffeescript .title {
   background: transparent;
   border: none;
   width: 50px;
-  height: 54px;
+  height: 65px;
   vertical-align: middle;
   font-size: 1.3em;
   color: #00AD9F;

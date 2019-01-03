@@ -1219,10 +1219,21 @@ ul.h-list > li {
 }
 .m_search .input:active {
   width: 100%;
+  padding-left: 34px;
+}
+@media (max-width: 1130px) {
+  .m_search .input:active {
+    width: 80%;
+  }
 }
 .m_search .input:focus {
   border: 1px solid rgba(0, 173, 159, 0.6);
   width: 100%;
+}
+@media (max-width: 1130px) {
+  .m_search .input:focus {
+    width: 80%;
+  }
 }
 .m_search .input:focus ~ .icon {
   color: #00AD9F;
@@ -1441,7 +1452,7 @@ ul.h-list > li {
 }
 @media (max-width: 1130px) {
   .l_main .post .meta time {
-    color: #b5b5b5;
+    color: #666666;
     margin-bottom: -20px;
   }
 }

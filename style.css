@@ -1746,7 +1746,7 @@ ul.h-list > li {
 .m_widget.author img {
   width: 200px;
   height: 200px;
-  margin-top: 10px;
+  margin-top: 24.4px;
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
 }
@@ -1755,17 +1755,16 @@ ul.h-list > li {
     width: 200px;
     height: 200px;
     border-radius: 100%;
-    margin-top: 10px;
+    margin-top: 14px;
   }
+}
+.m_widget.author .author-bg {
+  width: 100%;
+  height: 125px;
 }
 .m_widget.author .content {
   padding-bottom: 0;
-  padding: 95px 20px 0 20px;
-}
-@media (max-width: 1130px) {
-  .m_widget.author .content {
-    margin-top: 20px;
-  }
+  padding: 105px 20px 0 20px;
 }
 .m_widget.author .content p {
   font-size: 16px;

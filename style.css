@@ -968,6 +968,19 @@ ul.h-list > li {
   left: 10px;
   right: auto;
 }
+.footer-img {
+  width: 120px;
+  position: absolute;
+  top: 20px;
+  margin-left: -360px;
+}
+@media (max-width: 985px) {
+  .footer-img {
+    position: static;
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+}
 .l_header {
   position: fixed;
   z-index: 9999;
@@ -1519,6 +1532,7 @@ ul.h-list > li {
   -ms-flex-align: baseline;
       align-items: baseline;
   margin: 0;
+  margin-bottom: 20px;
 }
 .l_main .prev-next .prev {
   text-align: left;
@@ -1764,8 +1778,8 @@ ul.h-list > li {
 }
 @media (max-width: 1130px) {
   .m_widget.author img {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     margin-top: 14px;
   }
 }
@@ -1778,14 +1792,13 @@ ul.h-list > li {
   text-align: center;
 }
 .m_widget.author .social-wrapper {
-  margin-top: 10px;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: justify;
       justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  padding: 4px 20px;
+  padding: 20px 20px;
 }
 .m_widget.author .social-wrapper a {
   transition: all 0.25s ease;
@@ -2837,9 +2850,10 @@ pre .coffeescript .title {
 }
 #footer {
   position: relative;
-  padding: 40px 10px 120px 10px;
+  padding: 40px 10px 40px 10px;
+  background: #fff;
   width: 100%;
-  color: rgba(102, 102, 102, 0.5);
+  color: #888;
   margin: 0px auto;
   font-size: 14px;
   overflow: hidden;
@@ -2854,14 +2868,6 @@ pre .coffeescript .title {
   color: #4fc08d;
   text-decoration: underline;
 }
-#footer .social-wrapper {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: center;
-      justify-content: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
 #footer a {
   color: rgba(102, 102, 102, 0.7);
   transition: all 0.25s ease;
@@ -2870,24 +2876,5 @@ pre .coffeescript .title {
   -o-transition: all 0.25s ease;
 }
 #footer a:hover {
-  color: #00AD9F;
-}
-#footer a.social {
-  position: relative;
-  display: inline-block;
-  text-align: center;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: center;
-      justify-content: center;
-  -ms-flex-align: center;
-      align-items: center;
-  width: 32px;
-  height: 32px;
-  margin: 4px;
-  border-radius: 100px;
-}
-#footer a.social:hover {
-  background: rgba(0, 173, 159, 0.1);
   color: #00AD9F;
 }

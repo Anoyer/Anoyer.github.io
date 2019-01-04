@@ -16,26 +16,26 @@
   c=(b-B)*60;C=Math.floor((b-B)*60);
   D=Math.floor((c-C)*60);
   runtime_span.innerHTML="—— 本站已稳定运行： "+A+"天"+B+"小时"+C+"分"+D+"秒 ——"}show_runtime();</script><div style="margin-top: 10px"><span><b>优秀博客友链:</b></span><li style="display: inline"><a href="https://blog.xaoxuu.com" target="_blank">&nbsp;xaoxuu&#39;blog&nbsp;</a>&nbsp;</li><li style="display: inline"><a href="https://www.xjdog.cn" target="_blank">&nbsp;小俊博客&nbsp;</a>&nbsp;</li><li style="display: inline"><a href="https://www.micdz.cn/" target="_blank">&nbsp;MicDZ&#39;s blog&nbsp;</a>&nbsp;</li></div></footer><script src="//apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script><script src="/js/back.top.js"></script><script src="/js/cover.js"></script><script src="//cdn.bootcss.com/node-waves/0.7.5/waves.min.js"></script><script src="//cdn.bootcss.com/scrollReveal.js/3.3.2/scrollreveal.min.js"></script><script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/js/swiper.min.js"></script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script>document.onkeydown = function(e) {
-        var isie = (document.all) ? true: false;
-        var key;
-        var ev;
-        if (isie) { 
-            key = window.event.keyCode;
-            ev = window.event;
-        } else { 
-            key = e.which;
-            ev = e;
+    var isie = (document.all) ? true: false;
+    var key;
+    var ev;
+    if (isie) { 
+        key = window.event.keyCode;
+        ev = window.event;
+    } else { 
+        key = e.which;
+        ev = e;
+    }
+    if (key == 9) { 
+        if (isie) {
+            ev.keyCode = 0;
+            ev.returnValue = false;
+        } else {
+            ev.which = 0;
+            ev.preventDefault();
         }
-        if (key == 9) { 
-            if (isie) {
-                ev.keyCode = 0;
-                ev.returnValue = false;
-            } else { 
-                ev.which = 0;
-                ev.preventDefault();
-            }
-        }
-    };</script><script defer>var url = window.location.href;
+    }
+};</script><script defer>var url = window.location.href;
 if(url.indexOf("/page/") >= 0 ) { 
     
     document.getElementById("carousel-yc").style.display = "none";
@@ -54,7 +54,7 @@ if(url.indexOf("/page/") >= 0 ) {
            str=$(this).text().substring(0,45)+"...";
            $(this).html(str);                   
        }
-    });</script><script async src="https://cdn.jsdelivr.net/gh/wushile/wushile.github.io/js/jquery.fitvids.js"></script><script>var GOOGLE_CUSTOM_SEARCH_API_KEY = "";
+    });</script><script src="/js/jquery.fitvids.js"></script><script>var GOOGLE_CUSTOM_SEARCH_API_KEY = "";
         var GOOGLE_CUSTOM_SEARCH_ENGINE_ID = "";
         var ALGOLIA_API_KEY = "";
         var ALGOLIA_APP_ID = "";
@@ -65,7 +65,7 @@ if(url.indexOf("/page/") >= 0 ) {
         var BAIDU_API_ID = "";
         var SEARCH_SERVICE = "hexo" || "hexo";
         var ROOT = "/"||"/";
-        if(!ROOT.endsWith('/'))ROOT += '/';</script><script src="/js/app.js"></script><script async src="https://cdn.jsdelivr.net/gh/wushile/wushile.github.io/js/search.js"></script><script>(function(){
+        if(!ROOT.endsWith('/'))ROOT += '/';</script><script src="/js/search.js"></script><script src="/js/app.js"></script><script>(function(){
     var bp = document.createElement('script');
     var curProtocol = window.location.protocol.split(':')[0];
     if (curProtocol === 'https') {
@@ -76,7 +76,39 @@ if(url.indexOf("/page/") >= 0 ) {
     }
     var s = document.getElementsByTagName("script")[0];
     s.parentNode.insertBefore(bp, s);
-})();</script><script>document.body.oncopy = function() { swal("复制成功", "如需转载文章请注意声明原文出处，谢谢合作！","success");};</script><script>document.addEventListener('visibilitychange', function () {
+})();</script><script>var url = window.location.href;
+    window.onload=
+        function(){
+            var oDiv = document.getElementById("fixPara"),
+                H = 0,
+                Y = oDiv        
+            while (Y) {
+                H += Y.offsetTop; 
+                Y = Y.offsetParent;
+            }
+            window.onscroll = function()
+            {
+                var s = document.body.scrollTop || document.documentElement.scrollTop
+                if(s>H && url.indexOf(".html") == -1) {
+                    oDiv.style = "position:fixed;top:60px;"
+                } else {
+                    oDiv.style = ""
+                }
+            }
+        }</script><script>var mySwiper = new Swiper ('.swiper-container', {
+    effect: 'slide',
+    loop: true, 
+    autoplay: true,
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    
+  })</script><script>document.body.oncopy = function() { swal("复制成功", "如需转载文章请注意声明原文出处，谢谢合作！","success");};</script><script>document.addEventListener('visibilitychange', function () {
     if (document.visibilityState == 'hidden') {
         normal_title = document.title;
         document.title = '欢迎回到小吴博客';

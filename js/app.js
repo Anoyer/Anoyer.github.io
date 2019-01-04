@@ -186,7 +186,7 @@ var customSearch;
 			});
 		scrollListener();
 	}
-
+	
 	$(function () {
 		//set header
 		setHeader();
@@ -240,40 +240,3 @@ var customSearch;
 	});
 
 })(jQuery);
-
-
-    var url = window.location.href;
-        function(){
-            var oDiv = document.getElementById("fixPara"),
-                H = 0,
-                Y = oDiv        
-            while (Y) {
-                H += Y.offsetTop; 
-                Y = Y.offsetParent;
-            }
-            window.onscroll = function()
-            {
-                var s = document.body.scrollTop || document.documentElement.scrollTop
-                if(s>H && url.indexOf(".html") == -1) {
-                    oDiv.style = "position:fixed;top:60px;"
-                } else {
-                    oDiv.style = ""
-                }
-            }
-        }
-      
-  var mySwiper = new Swiper ('.swiper-container', {
-    effect: 'slide',
-    loop: true, 
-    autoplay: true,
-
-    pagination: {
-      el: '.swiper-pagination',
-    },
-    
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-    
-  }) 

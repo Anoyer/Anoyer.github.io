@@ -817,7 +817,6 @@ ul.h-list > li {
   right: 20px;
   box-shadow: 0 0 10px #00AD9F;
   z-index: 9999;
-  /* 按钮图标样式 */
   overflow: hidden;
   text-indent: 100%;
   white-space: nowrap;
@@ -827,20 +826,11 @@ ul.h-list > li {
 }
 .cd-top:hover {
   /*鼠标指向按钮时显示的颜色*/
-  background-color: #0099FF;
-  box-shadow: 0 0 10px #0099FF;
+  background-color: #00ad9fa3;
+  box-shadow: 0 0 15px #00ad9fa3;
 }
 .cd-top.cd-is-visible {
   visibility: visible;
-  opacity: 0.8;
-}
-.cd-top.cd-fade-out {
-  /* 如果用户继续向下滚动,这个按钮的透明度会变得更低 */
-  opacity: 0.8;
-}
-.no-touch .cd-top:hover {
-  background-color: #0099FF;
-  box-shadow: 0 0 10px #0099FF;
   opacity: 0.8;
 }
 /*//手机端显示的右侧和下侧边距*/
@@ -1274,6 +1264,12 @@ ul.h-list > li {
   width: calc(100% - 1 * 300px);
   padding-right: 20px;
   float: left;
+  margin-bottom: 50px;
+}
+@media (max-width: 1130px) {
+  .l_main {
+    margin-bottom: 10px;
+  }
 }
 .l_main .post-list {
   position: relative;

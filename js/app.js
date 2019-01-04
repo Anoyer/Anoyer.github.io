@@ -45,8 +45,6 @@ var customSearch;
 			}
 		});
 
-
-
 		// bind events to every btn
 		const $commentTarget = $('#comments');
 		if ($commentTarget.length) {
@@ -189,34 +187,6 @@ var customSearch;
 		scrollListener();
 	}
 
-	// function getPicture() {
-	// 	const $banner = $('.banner');
-	// 	if ($banner.length === 0) return;
-	// 	const url = ROOT + 'js/lovewallpaper.json';
-	// 	$.get(url).done(res => {
-	// 		if (res.data.length > 0) {
-	// 			const index = Math.floor(Math.random() * res.data.length);
-	// 			$banner.css('background-image', 'url(' + res.data[index].big + ')');
-	// 		}
-	// 	})
-	// }
-
-	// function getHitokoto() {
-	// 	const $hitokoto = $('#hitokoto');
-	// 	if($hitokoto.length === 0) return;
-	// 	const url = 'http://api.hitokoto.us/rand?length=80&encode=jsc&fun=handlerHitokoto';
-	// 	$('body').append('<script	src="%s"></script>'.replace('%s',url));
-	// 	window.handlerHitokoto = (data) => {
-	// 		$hitokoto
-	// 			.css('color','transparent')
-	// 			.text(data.hitokoto)
-	// 		if(data.source) $hitokoto.append('<cite> ——  %s</cite>'.replace('%s',data.source));
-	// 		else if(data.author) $hitokoto.append('<cite> ——  %s</cite>'.replace('%s',data.author));
-	// 		$hitokoto.css('color','white');
-	// 	}
-	// }
-
-
 	$(function () {
 		//set header
 		setHeader();
@@ -270,3 +240,40 @@ var customSearch;
 	});
 
 })(jQuery);
+
+
+    var url = window.location.href;
+        function(){
+            var oDiv = document.getElementById("fixPara"),
+                H = 0,
+                Y = oDiv        
+            while (Y) {
+                H += Y.offsetTop; 
+                Y = Y.offsetParent;
+            }
+            window.onscroll = function()
+            {
+                var s = document.body.scrollTop || document.documentElement.scrollTop
+                if(s>H && url.indexOf(".html") == -1) {
+                    oDiv.style = "position:fixed;top:60px;"
+                } else {
+                    oDiv.style = ""
+                }
+            }
+        }
+      
+  var mySwiper = new Swiper ('.swiper-container', {
+    effect: 'slide',
+    loop: true, 
+    autoplay: true,
+
+    pagination: {
+      el: '.swiper-pagination',
+    },
+    
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    
+  }) 

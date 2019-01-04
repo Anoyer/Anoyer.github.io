@@ -904,7 +904,6 @@ ul.h-list > li {
 .xwbk-logo {
   cursor: pointer;
   display: block;
-  margin-right: 10px;
   height: 65px;
 }
 /*夜间模式*/
@@ -1027,13 +1026,11 @@ ul.h-list > li {
   color: #00AD9F;
 }
 .l_header .logo {
-  margin-left: 10px;
   font-size: 19.2px;
   font-family: "Microsoft YaHei", 'Ubuntu', "Source Sans Pro", "Helvetica Neue", Helvetica, "Hiragino Sans GB", "Hiragino Sans GB W3", Menlo, Monaco, Source Han Sans CN Regular, WenQuanYi Micro Hei, Arial, sans-serif;
 }
 @media (max-width: 1130px) {
   .l_header .logo {
-    margin-left: 10px;
     -ms-flex: auto;
         flex: auto;
   }
@@ -1047,13 +1044,13 @@ ul.h-list > li {
   -moz-transition: all 0.25s ease;
   -webkit-transition: all 0.25s ease;
   -o-transition: all 0.25s ease;
-  margin: 0 20px;
+  margin: 0 30px;
 }
 .l_header .menu ul > li > a {
   font-weight: normal;
   font-size: 18px;
   color: #333;
-  padding: 0 15px;
+  padding: 0 12px;
   margin-right: 10px;
   padding-bottom: 10px;
 }

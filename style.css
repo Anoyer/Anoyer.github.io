@@ -632,6 +632,7 @@ pre {
 @media (max-width: 1130px) {
   .container.clearfix {
     display: inherit;
+    margin-bottom: 20px;
   }
 }
 .hidden {
@@ -759,7 +760,12 @@ ul.h-list > li {
   overflow: hidden;
 }
 .zdya {
+  transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  -webkit-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
   color: #666666;
+  font-size: 15px;
   cursor: pointer;
   text-decoration: none;
 }
@@ -768,15 +774,10 @@ ul.h-list > li {
 }
 .zdyhr {
   text-align: center;
-  margin-bottom: 20px;
+  margin: 20px 20px;
   border: 0;
   height: 1px;
   background-image: linear-gradient(to right, #ffffff, #0099FF, #00AD9F, #0099FF, #ffffff);
-}
-@media (max-width: 1130px) {
-  .zdyhr {
-    margin-top: 10px;
-  }
 }
 /*按钮基础样式*/
 .button {
@@ -1292,17 +1293,17 @@ ul.h-list > li {
   page-break-inside: avoid;
        break-inside: avoid-column;
   overflow: hidden;
-  margin-bottom: 20px;
+  border: 1px solid #eaeaea;
   box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.1), 0 2px 4px 0px rgba(0, 0, 0, 0.1);
 }
-.l_main .post-wrapper:hover {
-  box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.1), 0 4px 8px 0px rgba(0, 0, 0, 0.1), 0 4px 8px 0px rgba(0, 0, 0, 0.1), 0 4px 8px 0px rgba(0, 0, 0, 0.1);
+.l_main .hover-bgcolor:hover {
+  background: #f7f7f7;
 }
-.l_main .post-wrapper:active {
-  box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.1), 0 2px 4px 0px rgba(0, 0, 0, 0.1);
+.l_main .hover-bgcolor:active {
+  background: #eaeaea;
 }
 .l_main .post-wrapper .post .meta {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .l_main .post-wrapper .post .meta .title {
   font-size: 22px;
@@ -1351,7 +1352,7 @@ ul.h-list > li {
 .l_main .post {
   position: relative;
   margin: 0 auto;
-  padding: 40px 30px;
+  padding: 20px 30px;
   background: white;
   border-radius: 0px;
   box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.1);
@@ -1384,7 +1385,6 @@ ul.h-list > li {
 }
 .l_main .post .meta .title {
   left: 0;
-  font-size: 25px;
   text-align: left;
 }
 @media (max-width: 1130px) {
@@ -1413,10 +1413,34 @@ ul.h-list > li {
 .l_main .post .meta .title a:hover {
   color: #00AD9F;
 }
-.l_main .post .meta time,
+.l_main .post .meta .post-title {
+  color: #555;
+  font-size: 20px;
+  display: block;
+  overflow: hidden;
+  word-break: keep-all;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  -webkit-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+}
+.l_main .post .meta .post-title:hover {
+  color: #00AD9F;
+}
+.l_main .post .meta .post-data {
+  font-size: 12px;
+  color: #696464;
+  padding-left: 100px;
+}
 .l_main .post .meta .cats {
-  display: inline-block;
   font-size: 15px;
+  background-color: #45bcf975;
+  padding: 0px 6px;
+  margin-right: 6px;
+  float: left;
+  margin-left: 100px;
 }
 .l_main .post .meta .cats:before {
   color: #b5b5b5;
@@ -1464,7 +1488,7 @@ ul.h-list > li {
     padding-right: 0;
   }
   .l_main .post .meta {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   .l_main .post .meta .title {
     font-size: 22px;
@@ -1782,6 +1806,11 @@ ul.h-list > li {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   padding: 20px 20px;
+}
+@media (max-width: 1130px) {
+  .m_widget.author .social-wrapper {
+    padding: 30px 20px;
+  }
 }
 .m_widget.author .social-wrapper a {
   transition: all 0.25s ease;

@@ -1481,6 +1481,11 @@ ul.h-list > li {
 @media (max-width: 1130px) {
   .l_main .post .meta .cats {
     margin-left: 0px;
+    font-size: 15px;
+    background-color: #45bcf975;
+    padding: 0px 6px;
+    margin-right: 6px;
+    float: left;
   }
 }
 .l_main .post .meta .cats:before {

@@ -768,6 +768,15 @@ ul.h-list > li {
   font-size: 15px;
   cursor: pointer;
   text-decoration: none;
+  padding-left: 230px;
+  margin-bottom: 30px;
+}
+@media (max-width: 1130px) {
+  .zdya {
+    font-size: 12px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+  }
 }
 .zdya:hover {
   color: #00AD9F;
@@ -915,9 +924,22 @@ ul.h-list > li {
   margin-bottom: 30px;
 }
 .post_list_img {
+  position: absolute;
+  width: 220px;
+  height: 150px;
   float: left;
-  width: 80px;
-  height: 80px;
+  top: 30px;
+  left: 20px;
+  transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  -webkit-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+}
+@media (max-width: 1130px) {
+  .post_list_img {
+    width: 0px;
+    height: 0px;
+  }
 }
 .post_list_img:hover {
   opacity: 0.5;
@@ -925,15 +947,15 @@ ul.h-list > li {
 .topnew-img {
   float: right;
   margin-right: 10px;
-  margin-top: 4px;
+  margin-top: -4px;
   width: 60px;
 }
 @media (max-width: 985px) {
   .topnew-img {
     float: right;
     margin-right: 8px;
-    margin-top: 8px;
     width: 40px;
+    margin-top: 2px;
   }
 }
 .swiper-container {
@@ -1339,20 +1361,24 @@ ul.h-list > li {
     border-bottom-right-radius: 0;
   }
 }
-.l_main .post-wrapper .tags {
-  margin-bottom: -30px;
-  word-spacing: 20px;
-}
 @media (max-width: 1130px) {
   .l_main .post-wrapper {
     padding-left: 0;
     padding-right: 0;
   }
 }
+.l_main .mpost {
+  margin-left: 130px;
+}
+@media (max-width: 1130px) {
+  .l_main .mpost {
+    margin-left: 0px;
+  }
+}
 .l_main .post {
   position: relative;
   margin: 0 auto;
-  padding: 20px 30px;
+  padding: 25px 30px;
   background: white;
   border-radius: 0px;
   box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.1);
@@ -1426,13 +1452,23 @@ ul.h-list > li {
   -webkit-transition: all 0.25s ease;
   -o-transition: all 0.25s ease;
 }
+@media (max-width: 1130px) {
+  .l_main .post .meta .post-title {
+    font-size: 16px;
+  }
+}
 .l_main .post .meta .post-title:hover {
   color: #00AD9F;
 }
 .l_main .post .meta .post-data {
   font-size: 12px;
   color: #696464;
-  padding-left: 100px;
+  margin-left: 100px;
+}
+@media (max-width: 1130px) {
+  .l_main .post .meta .post-data {
+    margin-left: 0px;
+  }
 }
 .l_main .post .meta .cats {
   font-size: 15px;
@@ -1441,6 +1477,11 @@ ul.h-list > li {
   margin-right: 6px;
   float: left;
   margin-left: 100px;
+}
+@media (max-width: 1130px) {
+  .l_main .post .meta .cats {
+    margin-left: 0px;
+  }
 }
 .l_main .post .meta .cats:before {
   color: #b5b5b5;

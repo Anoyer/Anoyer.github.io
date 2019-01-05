@@ -788,6 +788,13 @@ ul.h-list > li {
   height: 1px;
   background-image: linear-gradient(to right, #ffffff, #0099FF, #00AD9F, #0099FF, #ffffff);
 }
+.latup-time {
+  position: absolute;
+  color: #00AD9F;
+  background-color: #00ad9f21;
+  padding: 10px;
+  border-radius: 10px;
+}
 /*按钮基础样式*/
 .button {
   width: 80%;
@@ -1481,11 +1488,7 @@ ul.h-list > li {
 @media (max-width: 1130px) {
   .l_main .post .meta .cats {
     margin-left: 0px;
-    font-size: 15px;
     background-color: #45bcf975;
-    padding: 0px 6px;
-    margin-right: 6px;
-    float: left;
   }
 }
 .l_main .post .meta .cats:before {

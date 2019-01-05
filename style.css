@@ -512,9 +512,8 @@ body.z_menu-open .menu-phone {
   box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.1), 0 4px 8px 0px rgba(0, 0, 0, 0.1), 0 4px 8px 0px rgba(0, 0, 0, 0.1), 0 4px 8px 0px rgba(0, 0, 0, 0.1);
 }
 .z-depth-main,
-.l_main .post,
 .m_widget {
-  box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.1), 0 2px 4px 0px rgba(0, 0, 0, 0.1);
+  border: 1px solid #eaeaea;
 }
 .z-depth-main-raised {
   box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.1), 0 4px 8px 0px rgba(0, 0, 0, 0.1), 0 4px 8px 0px rgba(0, 0, 0, 0.1), 0 4px 8px 0px rgba(0, 0, 0, 0.1);
@@ -1323,7 +1322,6 @@ ul.h-list > li {
        break-inside: avoid-column;
   overflow: hidden;
   border: 1px solid #eaeaea;
-  box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.1), 0 2px 4px 0px rgba(0, 0, 0, 0.1);
 }
 .l_main .hover-bgcolor:hover {
   background: #f7f7f7;
@@ -1383,37 +1381,26 @@ ul.h-list > li {
   }
 }
 .l_main .post {
-  position: relative;
-  margin: 0 auto;
-  padding: 25px 30px;
-  background: white;
-  border-radius: 0px;
-  box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.1);
   transition: all 0.25s ease;
   -moz-transition: all 0.25s ease;
   -webkit-transition: all 0.25s ease;
   -o-transition: all 0.25s ease;
+  position: relative;
+  margin: 0 auto;
+  padding: 25px 30px;
+  background: white;
+  border-radius: 4px;
 }
 .l_main .post h1 {
   font-weight: normal;
   font-size: 25px;
   line-height: 1.7;
   color: #111111;
-  text-shadow: 0.1px 1px 2px #888888;
-}
-.l_main .post:hover {
-  box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.1);
-}
-.l_main .post:active {
-  box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.1);
 }
 @media (max-width: 1130px) {
   .l_main .post {
     padding: 30px 15px;
-    border-radius: 0;
-  }
-  .l_main .post:hover {
-    box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.1), 0 2px 4px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
   }
 }
 .l_main .post .meta .title {
@@ -1726,7 +1713,7 @@ ul.h-list > li {
   margin-top: 20px;
   font-family: "Microsoft YaHei", 'Ubuntu', "Source Sans Pro", "Helvetica Neue", Helvetica, "Hiragino Sans GB", "Hiragino Sans GB W3", Menlo, Monaco, Source Han Sans CN Regular, WenQuanYi Micro Hei, Arial, sans-serif;
   font-size: 16px;
-  border-radius: 0px;
+  border-radius: 4px;
   transition: all 0.25s ease;
   -moz-transition: all 0.25s ease;
   -webkit-transition: all 0.25s ease;
@@ -1737,13 +1724,16 @@ ul.h-list > li {
 .m_widget:first-child {
   margin-top: 0;
 }
+.m_widget:hover {
+  border: 1px solid #94d4ff;
+}
 @media (max-width: 1130px) {
   .m_widget {
     border-radius: 0;
     width: 100%;
   }
   .m_widget:hover {
-    box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.1), 0 2px 4px 0px rgba(0, 0, 0, 0.1);
+    border: 1px solid #94d4ff;
   }
 }
 .m_widget .header {

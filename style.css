@@ -849,8 +849,8 @@ ul.h-list > li {
 }
 .cd-top:hover {
   /*鼠标指向按钮时显示的颜色*/
-  background-color: #00ad9fa3;
-  box-shadow: 0 0 15px #00ad9fa3;
+  background-color: #6ac7c0;
+  box-shadow: 0 0 15px #6ac7c0;
 }
 .cd-top.cd-is-visible {
   visibility: visible;
@@ -1478,7 +1478,7 @@ ul.h-list > li {
 }
 .l_main .post .meta .cats {
   font-size: 15px;
-  background-color: #45bcf975;
+  background-color: #aae0fc;
   padding: 0px 6px;
   margin-right: 6px;
   float: left;
@@ -1487,7 +1487,7 @@ ul.h-list > li {
 @media (max-width: 1130px) {
   .l_main .post .meta .cats {
     margin-left: 0px;
-    background-color: #45bcf975;
+    background-color: #aae0fc;
   }
 }
 .l_main .post .meta .cats:before {

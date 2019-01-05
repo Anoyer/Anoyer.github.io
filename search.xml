@@ -122,16 +122,16 @@
     </entry>
     
     <entry>
-      <title>博客更新（2018.12.16）</title>
+      <title>MaterialPlus停止发售 小吴博客停止商业化</title>
       <link href="/article/article-top.html"/>
       <url>/article/article-top.html</url>
       
-        <content type="html"><![CDATA[<h2 id="博客更新内容"><a href="#博客更新内容" class="headerlink" title="博客更新内容"></a>博客更新内容</h2><ol><li><p>新增粒子网背景特效，可在config中自定义设置相关参数。</p></li><li><p>顶部公告取消按钮关闭方案，改用可自定义的链接名称与链接，可在config中直接设置。</p></li><li><p>使用焕然一新的文章列表的new和top图标，并且优化了在移动端上显示的尺寸与边距。</p></li><li><p>修复目录定位按钮在火狐浏览器下点击会自动打开新标签页的问题。</p></li><li><p>为了保证hover的灵活性，在其他如侧边栏列表、文章归档页面等地方都去除了transition效果。</p></li><li><p>导航栏（包含移动端）全新改版，去除了图标和顶部加载动画并改善了指示条等；修复了在浏览独立页面的情况下导航栏跳出空白的情况。（由于导航栏图标已去除，所以需要在config文件的导航栏配置中删除icon项）。</p></li><li><p>其他页面尺寸、边距以及细节体验的优化调整。</p></li></ol><blockquote><p>提示：本博客的更新都会与Martial Plus同步</p></blockquote><h2 id="本站主题出售"><a href="#本站主题出售" class="headerlink" title="本站主题出售"></a>本站主题出售</h2><p>本站主题开始正式出售，详情请进入：<a href="https://www.wushile.top/materialplus/index.html">https://www.wushile.top/materialplus/index.html</a><br>为了福利各位广大各位小白大白，小吴博客官方专门出品了两部HEXO博客搭建的入门视频教程，视频全程由本博主亲自进行录制解说，精心制作。目前已经全部录制完工，此外对Hexo博客搭建感兴趣或者使用过程中遇到问题的朋友欢迎加入QQ群进行交流。</p><blockquote><p>1.【利用代码托管平台与Hexo搭建个人博客】B站传送门：<br><a href="https://www.bilibili.com/video/av36175038" target="_blank" rel="noopener">https://www.bilibili.com/video/av36175038</a></p></blockquote><blockquote><p>2.【Hexo主题安装配置与创建文章页面】B站传送门：<br><a href="https://www.bilibili.com/video/av36820037" target="_blank" rel="noopener">https://www.bilibili.com/video/av36820037</a></p></blockquote><h2 id="加入交流群"><a href="#加入交流群" class="headerlink" title="加入交流群"></a>加入交流群</h2><p>QQ交流群已成立！群号码：640206628 。欢迎玩HEXO与Martial X的朋友入群交流和学习HEXO与Martial X主题。群成员可围绕HEXO以及Material X主题的安装、配置、修改等问题进行交流探讨。</p><center><img width="30%" src="/img/QqunQR.png"></center><p><center>QQ扫码加群</center></p>]]></content>
+        <content type="html"><![CDATA[<h2 id="不作太多无奈的解释"><a href="#不作太多无奈的解释" class="headerlink" title="不作太多无奈的解释"></a>不作太多无奈的解释</h2><p>也许你在看到这篇文章时，可能会感到很震惊和难以理解，但我只能用一句话来表示这些：</p><blockquote><p>我认为：博客建立的初衷是交流探讨自己喜爱的技术，分享理解自己在生活中的各种事件、感悟和资讯等等这一切</p></blockquote><h2 id="MaterialPlus又该何去何从"><a href="#MaterialPlus又该何去何从" class="headerlink" title="MaterialPlus又该何去何从"></a>MaterialPlus又该何去何从</h2><p>我这个我也不知道，因为到了现在这个时候，我有着进退两难的情况：</p><h3 id="一、主题继续出售。"><a href="#一、主题继续出售。" class="headerlink" title="一、主题继续出售。"></a>一、主题继续出售。</h3><p>这是不可能的。</p><h3 id="二、将主题免费公开化、开源化供用户使用。"><a href="#二、将主题免费公开化、开源化供用户使用。" class="headerlink" title="二、将主题免费公开化、开源化供用户使用。"></a>二、将主题免费公开化、开源化供用户使用。</h3><p>这是一个很好的想法，然而，，，又怎么对得起那些之前已经付费购买了MaterialPlus的用户呢？</p><p>所以，我只能决定将MaterialPlus进行私用。</p><h2 id="加入交流群"><a href="#加入交流群" class="headerlink" title="加入交流群"></a>加入交流群</h2><p>欢迎玩HEXO与Martial X的朋友入群交流和学习HEXO与Martial X主题。群成员可围绕HEXO以及Material X主题的安装、配置、修改等问题进行交流探讨。</p><center><img width="30%" src="/img/QqunQR.png"></center><p><center>QQ扫码加群</center></p>]]></content>
       
       
       <categories>
           
-          <category> 置顶文章 </category>
+          <category> 最新文章 </category>
           
       </categories>
       
@@ -610,9 +610,9 @@
             
             <tag> 随笔 </tag>
             
-            <tag> 励志 </tag>
-            
             <tag> 网红 </tag>
+            
+            <tag> 励志 </tag>
             
         </tags>
       
@@ -637,9 +637,9 @@
             
             <tag> 随笔 </tag>
             
-            <tag> 软件 </tag>
-            
             <tag> 励志 </tag>
+            
+            <tag> 软件 </tag>
             
         </tags>
       

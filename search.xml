@@ -126,7 +126,7 @@
       <link href="/article/article-top.html"/>
       <url>/article/article-top.html</url>
       
-        <content type="html"><![CDATA[<h2 id="不作太多无奈的解释"><a href="#不作太多无奈的解释" class="headerlink" title="不作太多无奈的解释"></a>不作太多无奈的解释</h2><p>也许你在看到这篇文章时，可能会感到很震惊和难以理解，但我只能用一句话来表示这些：</p><blockquote><p>我认为：博客建立的初衷是交流探讨自己喜爱的技术，分享理解自己在生活中的各种事件、感悟和资讯等等这一切</p></blockquote><h2 id="MaterialPlus又该何去何从"><a href="#MaterialPlus又该何去何从" class="headerlink" title="MaterialPlus又该何去何从"></a>MaterialPlus又该何去何从</h2><p>我这个我也不知道，因为到了现在这个时候，我有着进退两难的情况：</p><h3 id="一、主题继续出售。"><a href="#一、主题继续出售。" class="headerlink" title="一、主题继续出售。"></a>一、主题继续出售。</h3><p>这是不可能的。</p><h3 id="二、将主题免费公开化、开源化供用户使用。"><a href="#二、将主题免费公开化、开源化供用户使用。" class="headerlink" title="二、将主题免费公开化、开源化供用户使用。"></a>二、将主题免费公开化、开源化供用户使用。</h3><p>这是一个很好的想法，然而，，，又怎么对得起那些之前已经付费购买了MaterialPlus的用户呢？</p><p>所以，我只能决定将MaterialPlus进行私用。</p><h2 id="加入交流群"><a href="#加入交流群" class="headerlink" title="加入交流群"></a>加入交流群</h2><p>欢迎玩HEXO与Martial X的朋友入群交流和学习HEXO与Martial X主题。群成员可围绕HEXO以及Material X主题的安装、配置、修改等问题进行交流探讨。</p><center><img width="30%" src="/img/QqunQR.png"></center><p><center>QQ扫码加群</center></p>]]></content>
+        <content type="html"><![CDATA[<h2 id="不作太多无奈的解释"><a href="#不作太多无奈的解释" class="headerlink" title="不作太多无奈的解释"></a>不作太多无奈的解释</h2><p>也许你在看到这篇文章时，可能会感到很震惊和难以理解，但我只能用一句话来表示这些：</p><blockquote><p>我认为：博客建立的初衷是交流探讨自己喜爱的技术，分享理解自己在生活中的各种事件、感悟和资讯等等这一切</p></blockquote><h2 id="MaterialPlus又该何去何从"><a href="#MaterialPlus又该何去何从" class="headerlink" title="MaterialPlus又该何去何从"></a>MaterialPlus又该何去何从</h2><p>我这个我也不知道，因为到了现在这个时候，我有着进退两难的情况：</p><h3 id="一、主题继续出售。"><a href="#一、主题继续出售。" class="headerlink" title="一、主题继续出售。"></a>一、主题继续出售。</h3><p>这是不可能的。</p><h3 id="二、将主题免费公开化、开源化供用户使用。"><a href="#二、将主题免费公开化、开源化供用户使用。" class="headerlink" title="二、将主题免费公开化、开源化供用户使用。"></a>二、将主题免费公开化、开源化供用户使用。</h3><p>这是一个很好的想法，然而，，，又怎么对得起那些之前已经付费购买了MaterialPlus的用户呢？</p><p>所以，我只能决定将MaterialPlus进行私用。</p><h2 id="其他内容"><a href="#其他内容" class="headerlink" title="其他内容"></a>其他内容</h2><h3 id="加入交流群"><a href="#加入交流群" class="headerlink" title="加入交流群"></a>加入交流群</h3><p>欢迎玩HEXO与Martial X的朋友入群交流和学习HEXO与Martial X主题。群成员可围绕HEXO以及Material X主题的安装、配置、修改等问题进行交流探讨。</p><center><img width="30%" src="/img/QqunQR.png"></center><center>QQ扫码加群</center><h3 id="博客搭建两部曲"><a href="#博客搭建两部曲" class="headerlink" title="博客搭建两部曲"></a>博客搭建两部曲</h3><p>以下两部视频为博主亲自制作的HEXO教程，专门提供给各位小白朋友学习HEXO的基本搭建和文章的发布。</p><blockquote><p>1.【利用代码托管平台与Hexo搭建个人博客】B站传送门：<br><a href="https://www.bilibili.com/video/av36175038" target="_blank" rel="noopener">https://www.bilibili.com/video/av36175038</a></p></blockquote><blockquote><p>2.【Hexo主题安装配置与创建文章页面】B站传送门：<br><a href="https://www.bilibili.com/video/av36820037" target="_blank" rel="noopener">https://www.bilibili.com/video/av36820037</a></p></blockquote>]]></content>
       
       
       <categories>
@@ -610,9 +610,9 @@
             
             <tag> 随笔 </tag>
             
-            <tag> 网红 </tag>
-            
             <tag> 励志 </tag>
+            
+            <tag> 网红 </tag>
             
         </tags>
       
@@ -637,9 +637,9 @@
             
             <tag> 随笔 </tag>
             
-            <tag> 励志 </tag>
-            
             <tag> 软件 </tag>
+            
+            <tag> 励志 </tag>
             
         </tags>
       

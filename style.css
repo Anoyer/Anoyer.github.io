@@ -748,7 +748,7 @@ ul.h-list > li {
 }
 @media (max-width: 1130px) {
   .l_body {
-    padding: 20px 0 0px;
+    padding: 10px 0 0px;
     border-radius: 0;
   }
 }
@@ -790,7 +790,7 @@ ul.h-list > li {
 .latup-time {
   position: absolute;
   color: #00AD9F;
-  background-color: #00ad9f21;
+  background-color: #def4f3;
   padding: 10px;
   border-radius: 10px;
 }
@@ -972,13 +972,15 @@ ul.h-list > li {
   }
 }
 .swiper-container {
-  height: 200px;
   border-radius: 4px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 @media (max-width: 1216px) {
   .swiper-container {
-    display: none;
+    margin-bottom: 0px;
+  }
+  .swiper-container img {
+    width: 100%;
   }
 }
 .swiper-pagination-bullet-active {

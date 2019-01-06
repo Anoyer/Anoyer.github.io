@@ -1523,6 +1523,7 @@ ul.h-list > li {
   color: #002e2a;
 }
 .l_main .post .meta time {
+  font-size: 14px;
   color: #99;
   margin-bottom: 20px;
 }

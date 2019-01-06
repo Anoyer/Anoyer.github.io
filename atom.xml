@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.wushile.top/"/>
-  <updated>2019-01-05T08:21:52.798Z</updated>
+  <updated>2019-01-05T08:19:58.682Z</updated>
   <id>https://www.wushile.top/</id>
   
   <author>
@@ -15,29 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>我对猎码（liecode）官方的一份致歉信</title>
-    <link href="https://www.wushile.top/article/zhiqianxin-liecode.html"/>
-    <id>https://www.wushile.top/article/zhiqianxin-liecode.html</id>
-    <published>2018-12-30T14:33:01.000Z</published>
-    <updated>2019-01-05T08:21:52.798Z</updated>
-    
-    <content type="html"><![CDATA[<p>由于今天我因为一些个人情绪和争议而联合我的朋友攻击了猎码（liecode）的官网，之后非常后悔自己的恶劣行为，在此进行道歉的公示！</p><p><img src="/img/daoqianxin-liecode-1.jpg"></p><p><center>道歉信-1</center></p><p><hr><br><img src="/img/daoqianxin-liecode-2.jpg"></p><p><center>道歉信-2</center><br></p><h3 id="（道歉信将从明日开始置顶公示一周）"><a href="#（道歉信将从明日开始置顶公示一周）" class="headerlink" title="（道歉信将从明日开始置顶公示一周）"></a><center>（道歉信将从明日开始置顶公示一周）</center></h3>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;由于今天我因为一些个人情绪和争议而联合我的朋友攻击了猎码（liecode）的官网，之后非常后悔自己的恶劣行为，在此进行道歉的公示！&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/img/daoqianxin-liecode-1.jpg&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;center&gt;道歉信-1&lt;/ce
-      
-    
-    </summary>
-    
-      <category term="致歉信" scheme="https://www.wushile.top/categories/%E8%87%B4%E6%AD%89%E4%BF%A1/"/>
-    
-    
-  </entry>
   
   <entry>
     <title>天眼定位软件，能真正定位你的好友的APP</title>
@@ -154,7 +131,7 @@
     <link href="https://www.wushile.top/article/article-top.html"/>
     <id>https://www.wushile.top/article/article-top.html</id>
     <published>2018-11-22T03:35:22.000Z</published>
-    <updated>2019-01-05T09:08:09.366Z</updated>
+    <updated>2019-01-06T07:48:20.217Z</updated>
     
     <content type="html"><![CDATA[<h2 id="不作太多无奈的解释"><a href="#不作太多无奈的解释" class="headerlink" title="不作太多无奈的解释"></a>不作太多无奈的解释</h2><p>也许你在看到这篇文章时，可能会感到很震惊和难以理解，但我只能用一句话来表示这些：</p><blockquote><p>我认为：博客建立的初衷是交流探讨自己喜爱的技术，分享理解自己在生活中的各种事件、感悟和资讯等等这一切</p></blockquote><h2 id="MaterialPlus又该何去何从"><a href="#MaterialPlus又该何去何从" class="headerlink" title="MaterialPlus又该何去何从"></a>MaterialPlus又该何去何从</h2><p>我这个我也不知道，因为到了现在这个时候，我有着进退两难的情况：</p><h3 id="一、主题继续出售。"><a href="#一、主题继续出售。" class="headerlink" title="一、主题继续出售。"></a>一、主题继续出售。</h3><p>这是不可能的。</p><h3 id="二、将主题免费公开化、开源化供用户使用。"><a href="#二、将主题免费公开化、开源化供用户使用。" class="headerlink" title="二、将主题免费公开化、开源化供用户使用。"></a>二、将主题免费公开化、开源化供用户使用。</h3><p>这是一个很好的想法，然而，，，又怎么对得起那些之前已经付费购买了MaterialPlus的用户呢？</p><p>所以，我只能决定将MaterialPlus进行私用。</p><h2 id="其他内容"><a href="#其他内容" class="headerlink" title="其他内容"></a>其他内容</h2><h3 id="加入交流群"><a href="#加入交流群" class="headerlink" title="加入交流群"></a>加入交流群</h3><p>欢迎玩HEXO与Martial X的朋友入群交流和学习HEXO与Martial X主题。群成员可围绕HEXO以及Material X主题的安装、配置、修改等问题进行交流探讨。</p><center><img width="30%" src="/img/QqunQR.png"></center><center>QQ扫码加群</center><h3 id="博客搭建两部曲"><a href="#博客搭建两部曲" class="headerlink" title="博客搭建两部曲"></a>博客搭建两部曲</h3><p>以下两部视频为博主亲自制作的HEXO教程，专门提供给各位小白朋友学习HEXO的基本搭建和文章的发布。</p><blockquote><p>1.【利用代码托管平台与Hexo搭建个人博客】B站传送门：<br><a href="https://www.bilibili.com/video/av36175038" target="_blank" rel="noopener">https://www.bilibili.com/video/av36175038</a></p></blockquote><blockquote><p>2.【Hexo主题安装配置与创建文章页面】B站传送门：<br><a href="https://www.bilibili.com/video/av36820037" target="_blank" rel="noopener">https://www.bilibili.com/video/av36820037</a></p></blockquote>]]></content>
     
@@ -565,6 +542,35 @@
       <category term="循环" scheme="https://www.wushile.top/tags/%E5%BE%AA%E7%8E%AF/"/>
     
       <category term="流程控制" scheme="https://www.wushile.top/tags/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java面向对象初步学习总结</title>
+    <link href="https://www.wushile.top/article/201809261411.html"/>
+    <id>https://www.wushile.top/article/201809261411.html</id>
+    <published>2018-09-26T06:11:21.000Z</published>
+    <updated>2018-12-02T04:49:08.654Z</updated>
+    
+    <content type="html"><![CDATA[<p>这几天本人开始学习Java，记得我初中时也自学过一点Java，但因为各种原因没有坚持下来，这次我觉得要好好重新的审视下这个世界一流、IT界著名的的JAVA编程语言。</p><p>现在已经学习了面向对象了，不敢说精通这个知识点，但起码来说在我的脑海中有一个基本的知识点了。为了能更好的记住又能和大家分享我的学习成果我就简单说一下这个Java面向对象到底是个什么鬼。最最基本的Java知识我这里就不一一解释了,我主要是和大家说一下这个面向对象。</p><h2 id="类与创建对象（我的个人理解）"><a href="#类与创建对象（我的个人理解）" class="headerlink" title="类与创建对象（我的个人理解）"></a>类与创建对象（我的个人理解）</h2><p>那说了半天的面向对象、对象、对象,到底是面向什么对象？</p><p>在Java中要有对象就必须要有一个类，这个类就好比一个模板一样，在这个类里面可以刻画出属性和功能，其实我们身边的事物都是可以抽象成一个类，就拿“人”来讲，一个人的年龄、身高、体重等等，这些都是人的属性，人会吃饭、眨眼、举手等这些动作都是人的功能。那么Java编程语言当中就可以把这个“人”给抽象化，给这个“人”赋予属性、赋予方法，然后对象呢？对象就是你可以根据这个“人”的模板（类），再创建多个的“人”（实例），当然也可以是别的名字，比如“小明”等，像这样给这些人照着第一个“人”的模板赋予属性。</p><h2 id="代码综合讲解："><a href="#代码综合讲解：" class="headerlink" title="代码综合讲解："></a>代码综合讲解：</h2><p>首先在Eclipse中创建一个Java项目，然后在其项目下新建一个名为“Wushile”的Java文件，代码如下：<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Wushile</span></span>&#123;</span><br><span class="line"><span class="keyword">int</span> age; <span class="comment">//声明变量 年龄</span></span><br><span class="line"><span class="keyword">float</span> heigth; <span class="comment">//声明变量 身高</span></span><br><span class="line"><span class="keyword">double</span> weigth; <span class="comment">//声明变量 体重</span></span><br><span class="line"></span><br><span class="line">  <span class="comment">//-----构-----造-----方-----法-----</span></span><br><span class="line"></span><br><span class="line">Wushile(<span class="keyword">int</span> age)&#123; <span class="comment">//传入一个年龄参数</span></span><br><span class="line"><span class="keyword">this</span>.age = age; <span class="comment">//把等号右边的年龄赋值给成员变量的年龄</span></span><br><span class="line">&#125;</span><br><span class="line">Wushile(<span class="keyword">float</span> heigth)&#123; <span class="comment">//同上类似</span></span><br><span class="line"><span class="keyword">this</span>.heigth = heigth;</span><br><span class="line">&#125;</span><br><span class="line">Wushile(<span class="keyword">double</span> weigth)&#123; <span class="comment">//同上类似</span></span><br><span class="line"><span class="keyword">this</span>.weigth = weigth;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">displayInfo</span><span class="params">()</span></span>&#123; <span class="comment">//输出我的信息</span></span><br><span class="line">System.out.println(<span class="string">"吴施乐的基本信息："</span>);</span><br><span class="line">System.out.println(<span class="string">"年龄："</span>+age);</span><br><span class="line">System.out.println(<span class="string">"身高："</span>+heigth);</span><br><span class="line">System.out.println(<span class="string">"体重："</span>+weigth);</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p><p>其实不用看右边的注释也知道，这是一个“我”的类，并且在里面也构建了各种属性和和一个输出方法。”Wushile”在这里就是一个构造方法，因为我所创建的这个类就叫“Wushile”，构造方法的名字必须与它所在的类的名字完全相同。当然，光有这个类还不行，还需要创建一个对象，也就是我这个类的实例，接着看代码：<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Test</span></span>&#123;</span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">Wushile wsl = <span class="keyword">new</span> Wushile(<span class="number">99</span>);<span class="comment">//创建对象并传入年龄参数</span></span><br><span class="line"></span><br><span class="line">wsl.heigth = <span class="number">999f</span>; <span class="comment">//通过操作Wushile类中的变量来改变身高</span></span><br><span class="line">wsl.weigth = <span class="number">999.9</span>; <span class="comment">//通过操作Wushile类中的变量来改变体重</span></span><br><span class="line">wsl.displayInfo(); <span class="comment">//通过调用Wushile类中的方法来输出信息</span></span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p><p>看了注释即使是小白也应该多少有点明白了，那有细心的人看了可能会问我，为什么在创建wsl对象时要传入一个99的年龄参数，不直接和身高体重那样的代码形式来写不好吗？其实系统已经给我们提供了一个构造方法，默认的构造方法是不包含参数的，而且方法体中也没有语句。如：<br><br><code>Ren = new Wushile();</code><br><br>但我们的类当中一旦使用了自己的构造方法，原先的系统给我们提供的构造方法就隐藏掉了，所以我们必须在<code>Wushile()</code>后面的括号中直接传入参数，否则是会报错的。</p><p>运行结果:<br><img src="https://wx4.sinaimg.cn/mw690/0060lm7Tly1fvn004slj0j30b206oq2v.jpg"><br></p><p>看完我的这篇面向对象的文章后，不管你是呵呵笑的大佬还是一脸懵逼的小白，都应该有些收获，Java的语言真的是博大精深啊！其实要说Java难学倒也不难，毕竟学习任何一门编程语言都是一个循序渐进、融会贯通的过程，都要由足够的毅力和耐心。</p><p>好啦，梦想无终点！加油！</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;这几天本人开始学习Java，记得我初中时也自学过一点Java，但因为各种原因没有坚持下来，这次我觉得要好好重新的审视下这个世界一流、IT界著名的的JAVA编程语言。&lt;/p&gt;&lt;p&gt;现在已经学习了面向对象了，不敢说精通这个知识点，但起码来说在我的脑海中有一个基本的知识点了。为了
+      
+    
+    </summary>
+    
+      <category term="编程开发" scheme="https://www.wushile.top/categories/%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91/"/>
+    
+    
+      <category term="Java" scheme="https://www.wushile.top/tags/Java/"/>
+    
+      <category term="面向对象" scheme="https://www.wushile.top/tags/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/"/>
+    
+      <category term="学习" scheme="https://www.wushile.top/tags/%E5%AD%A6%E4%B9%A0/"/>
     
   </entry>
   

@@ -987,6 +987,11 @@ ul.h-list > li {
   opacity: 1;
   background: #fff;
 }
+/*.swiper-pagination {
+   @media (max-width: 1216px){
+        display: none;
+    }
+}*/
 .swiper-button-next,
 .swiper-container-rtl .swiper-button-prev {
   background-image: url(/img/right_btn.png);

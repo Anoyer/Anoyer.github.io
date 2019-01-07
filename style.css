@@ -998,12 +998,12 @@ ul.h-list > li {
 }*/
 .swiper-button-next,
 .swiper-container-rtl .swiper-button-prev {
-  background-image: url(/img/right_btn.png);
+  background-image: url(/img/right_btn.svg);
   right: 10px;
   left: auto;
 }
 .swiper-button-prev {
-  background-image: url(/img/left_btn.png);
+  background-image: url(/img/left_btn.svg);
   left: 10px;
   right: auto;
 }

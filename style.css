@@ -453,12 +453,12 @@ table {
   width: 100%;
 }
 table th {
-  background-color: #f2f2f2;
+  background-color: #f9f9f9;
 }
 table td,
 table th {
   padding: 4px 8px;
-  border: 1px solid #EFEFEF;
+  border: 1px solid #F6F6F6;
 }
 td,
 th {
@@ -486,7 +486,7 @@ html {
   text-rendering: optimizelegibility;
 }
 body {
-  background-color: #EFEFEF;
+  background-color: #F6F6F6;
 }
 body.modal-active {
   overflow: hidden;
@@ -744,7 +744,7 @@ ul.h-list > li {
     background:url("/img/bg-img.png") no-repeat;
     background-size: cover;
     background-attachment:fixed;*/
-  background: url(/img/bg-img.png) repeat top left scroll;
+  /*background: url(/img/bg-img.png) repeat top left scroll;*/
 }
 @media (max-width: 1040px) {
   .l_body {
@@ -1347,10 +1347,7 @@ ul.h-list > li {
   border: 1px solid #eaeaea;
 }
 .l_main .hover-bgcolor:hover {
-  background: #f7f7f7;
-}
-.l_main .hover-bgcolor:active {
-  background: #eaeaea;
+  background: #f9f9f9;
 }
 .l_main .post-wrapper .post .meta {
   margin-bottom: 10px;
@@ -1404,10 +1401,6 @@ ul.h-list > li {
   }
 }
 .l_main .post {
-  transition: all 0.25s ease;
-  -moz-transition: all 0.25s ease;
-  -webkit-transition: all 0.25s ease;
-  -o-transition: all 0.25s ease;
   position: relative;
   margin: 0 auto;
   padding: 25px 30px;
@@ -2269,7 +2262,7 @@ ul.h-list > li {
   font-size: 14px;
   line-height: 1.7;
   margin-top: 20px;
-  background: rgba(226, 226, 226, 0.5);
+  background: rgba(233, 233, 233, 0.5);
 }
 .article .tags.article-tags {
   background: #f7f7f7;
@@ -2322,7 +2315,7 @@ ul.h-list > li {
   width: 100%;
   padding: 10px;
   color: rgba(102, 102, 102, 0.7);
-  background-color: rgba(239, 239, 239, 0.5);
+  background-color: rgba(246, 246, 246, 0.5);
   border-radius: 0px;
   transition: all 0.25s ease;
   -moz-transition: all 0.25s ease;
@@ -2412,7 +2405,7 @@ ul.h-list > li {
   cursor: text;
   padding: 20px;
   vertical-align: top;
-  border: 0px solid #eaeaea;
+  border: 0px solid #f1f1f1;
 }
 .highlight .code:before {
   content: "";

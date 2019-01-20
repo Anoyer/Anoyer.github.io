@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.wushile.top/"/>
-  <updated>2019-01-06T12:13:48.280Z</updated>
+  <updated>2019-01-20T09:01:09.696Z</updated>
   <id>https://www.wushile.top/</id>
   
   <author>
@@ -17,11 +17,40 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>使用AssetsStudio提取unity游戏中的资源</title>
+    <link href="https://www.wushile.top/article/26.html"/>
+    <id>https://www.wushile.top/article/26.html</id>
+    <published>2019-01-20T06:07:11.000Z</published>
+    <updated>2019-01-20T09:01:09.696Z</updated>
+    
+    <content type="html"><![CDATA[<p>开头说一点小事情。<br>很高兴能抽出一点点时间来更新好我的博客，因为一些个人原因，<strong>本人可能要从2月18日起或者临近18号的前几天就开始退网了</strong>，但并不是全面退网，博客这边的话会不定时的进行更新，但更新周期应该是非常长的，这里就只能说声抱歉了 。</p><p><hr></p><center>· 正式进入正文 ·</center><br><hr><br>应该来说不少小伙伴在玩unity单机游戏时，都喜欢一些游戏里的场景音乐或者一些音效，比如游戏通关成功、失败音效，攻击音效，枪炮子弹等等；此外游戏里的背景图、地图等这些图片很多小伙伴也是很喜欢的，拿来做壁纸的话肯定很6。<br><br>那么其实是有一种办法可以把游戏里的这些资源提取出来的，但值得注意的是，本篇教程针对的是unity游戏，在提取你游戏资源之前首先得看下你的游戏是不是基于unity开发的（稍后我会有一种办法教大家来辨识），而且还得是安卓版的手机游戏，否则这篇文章看了也就没啥用了。<br><br>&gt;用到的工具<br><br>- 解压缩软件<br>- <a href="https://pan.baidu.com/s/146cYUGrw8i2BECZbhCOGrw" target="_blank" rel="noopener">AssetsStudio</a> (←点击下载)<br><br><img src="/img/26/as.png" alt=""><br><center>· AssetsStudio界面图解 ·</center><h2 id="解压游戏APK文件"><a href="#解压游戏APK文件" class="headerlink" title="解压游戏APK文件"></a>解压游戏APK文件</h2><p>以“忍者岚”这款闯关型游戏案例来为大家讲解，apk的获取可以从应用商店里下载后找到安装包通过usb线或者QQ传电脑上即可，这个不多说。</p><p>在电脑上将游戏安装包的后缀”.apk”改为”.zip”，然后使用文件解压缩工具进行解压，电脑已经装了解压缩工具的直接右键解压即可，因文件较多，最好解压到一个文件夹里。</p><h2 id="使用AssetsStudio（以下简称AS）"><a href="#使用AssetsStudio（以下简称AS）" class="headerlink" title="使用AssetsStudio（以下简称AS）"></a>使用AssetsStudio（以下简称AS）</h2><h3 id="确认是否基于unity开发"><a href="#确认是否基于unity开发" class="headerlink" title="确认是否基于unity开发"></a>确认是否基于unity开发</h3><p>在使用这款工具之前还得先看看我们解压出来的游戏文件中，确认下是否有unity资源，以证明游戏是基于unity开发的。具体步骤：</p><ol><li>在解压出来的文件中找到<code>assets</code>文件夹</li><li>在文件夹中搜索<code>unity</code>关键字</li></ol><p>若匹配到关键字的文件出来了就说明这个游戏的确是基于unity开发的。</p><h3 id="打开AS并载入资源目录"><a href="#打开AS并载入资源目录" class="headerlink" title="打开AS并载入资源目录"></a>打开AS并载入资源目录</h3><p>把下载来的AS工具压缩包解压到一个目录中，然后找到<code>AssetStudioGUI.exe</code>这个程序，启动。软件只有英文的，对英文都疼的朋友可以去看看有没有汉化版的。</p><p>在程序菜单栏中点击<code>file&gt;load folder</code>，这时弹出了个选择文件夹的窗口，进入到游戏解压目录中，进入<code>assets&gt;bin</code>，找到并选择<code>data</code>文件夹。<br>接着就是一小会儿时间的载入，下方有进度条。</p><p><img src="/img/26/as_zr.gif" alt=""></p><center>· AS载入资源目录 ·</center><h3 id="过滤和导出文件"><a href="#过滤和导出文件" class="headerlink" title="过滤和导出文件"></a>过滤和导出文件</h3><p>载入完文件之后，可以按照文件类型去找到你想要的文件，点击菜单栏上的<code>Filter Type</code>菜单，可以过滤出你想要的文件按类型，比如图片、字体、音频等。</p><p>常用过滤菜单介绍：<br><strong>注意使用过滤功能前需要将侧边栏选项卡切换到<code>Asset List</code></strong></p><ul><li><code>all</code> 列出所有文件（不过滤）</li><li><code>AudioClip</code> 只列出音频文件</li><li><code>Font</code> 只列出字体文件</li><li><code>Mesh</code> 只列出网格组件，这个网格组件文件导出的只是一个obj格式的文件，只有3dmax等软件可以打开和使用。</li><li><code>Sprite</code> 一种图形文件，可以以图片的形式导出</li><li><code>Texture2D</code> 一种图形文件，可以以图片的形式导出</li></ul><p>其他的就都是一些动画还有代码之类的文件，这些就不介绍了，毕竟用处不大。</p><p><img src="/img/26/as_gl.gif" alt=""></p><center>· AS过滤资源文件 ·</center><p>导出文件其实很简单，在要导出的文件列表上右击选择<code>Export selected assets</code>，选择要导出的文件夹后即可导出。</p><p><img src="/img/26/as_dc.gif" alt=""></p><center>· AS导出资源文件 ·</center>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;开头说一点小事情。&lt;br&gt;很高兴能抽出一点点时间来更新好我的博客，因为一些个人原因，&lt;strong&gt;本人可能要从2月18日起或者临近18号的前几天就开始退网了&lt;/strong&gt;，但并不是全面退网，博客这边的话会不定时的进行更新，但更新周期应该是非常长的，这里就只能说声抱歉了
+      
+    
+    </summary>
+    
+      <category term="软件资讯" scheme="https://www.wushile.top/categories/%E8%BD%AF%E4%BB%B6%E8%B5%84%E8%AE%AF/"/>
+    
+    
+      <category term="AssetsStudio" scheme="https://www.wushile.top/tags/AssetsStudio/"/>
+    
+      <category term="unity" scheme="https://www.wushile.top/tags/unity/"/>
+    
+      <category term="资源提取" scheme="https://www.wushile.top/tags/%E8%B5%84%E6%BA%90%E6%8F%90%E5%8F%96/"/>
+    
+  </entry>
+  
+  <entry>
     <title>小蓝条，办公族必备神器！</title>
     <link href="https://www.wushile.top/article/xaolantiao.html"/>
     <id>https://www.wushile.top/article/xaolantiao.html</id>
     <published>2019-01-06T07:54:01.000Z</published>
-    <updated>2019-01-06T12:13:48.280Z</updated>
+    <updated>2019-01-20T06:08:28.321Z</updated>
     
     <content type="html"><![CDATA[<p>今天为大家推荐的是一款非常适合办公族们使用的一款PC端的语音助手软件——“小蓝条”，我可是这款软件的粉丝之一哦！</p><p>众所周知，微软在Windows10中已经推出了“小娜语音助手”的功能，但其功能却无法满足办公人士的需要，而小蓝条同样也是一款语音助手软件，但却是主打办公领域的，那么它都有哪些强大而又实用的功能呢？又如何去充当办公族们的小助手呢？</p><p><img width="80%" src="https://img.vim-cn.com/82/f82d879204f007a8adedcdf47e793b41e361e8.png"></p><blockquote><p>小蓝条拥有的三大功能</p></blockquote><h2 id="office大师"><a href="#office大师" class="headerlink" title="office大师"></a>office大师</h2><p>这是小蓝条的主要核心功能之一，office大师包含了Excel大师，Word大师，PPT大师，文件整理大师，演示视频5大模块，拥有上百种智能工具，还配备离线动画教程，对那些刚接触office软件的用户来说，可以有效降低学习成本，提高办公效率。小蓝条可以同时支持Office和WPS的所有版本。</p><p><img src="https://img.vim-cn.com/57/f31aaf82e0cd4dd1229c3c7c5f353c55cf402a.gif" alt=""></p><center>- 在word中使用小蓝条计算 -</center><h2 id="超级搜索框"><a href="#超级搜索框" class="headerlink" title="超级搜索框"></a>超级搜索框</h2><p>融合语音操作功能，支持打字输入或语言操作。强大的超级搜索，可实现电脑文件和网络搜索结果。真正实现智能办公。<br><img src="https://img.vim-cn.com/57/20443534a4eb4d061649d590d216b218774c65.gif" alt=""></p><center>- 使用小蓝条搜索指定文件 -</center><h2 id="功能商店"><a href="#功能商店" class="headerlink" title="功能商店"></a>功能商店</h2><p>百种工具，百倍效率——融合了Excel修复工具、Office文档瘦身、Word修复工具、PDF文件转换为Word文件等功能，提供给用户更高级的体验。</p><p><img src="https://img.vim-cn.com/a5/8ea07caccd0a80b464c1d886fc55d8a6f2d96d.png" alt=""></p><center>- 小蓝条功能商店 -</center><p>此外，在功能商店中，小蓝条也列出了各种可供用户语音操作的指令，方便用户快速查阅。</p><h2 id="两元永久使用的“文字识别”功能"><a href="#两元永久使用的“文字识别”功能" class="headerlink" title="两元永久使用的“文字识别”功能"></a>两元永久使用的“文字识别”功能</h2><p>个人觉得很棒的功能还是小蓝条的文字识别，而且只需要2元即可终身免费使用！这个文字识别功能强大到可以识别你电脑屏幕上的任何文字！在一些不能使用鼠标进行选择、复制的文本就可以使用小蓝条的这项功能来解决！</p><p><strong>下面就来演示下如何使用小蓝条来复制出“百度文库”中的文档内容：</strong></p><p>首先得把这功能给买下来，只需2元，终身使用。购买之后只需对小蓝条说：“小蓝条文字识别”，接着小蓝条就会对你说：“请框选文字”，这时你的鼠标指针就会变成一个十字，按住鼠标左键框选住你需要识别的文字区域，框选完毕后松开左键，这时就会弹出一个记事本，里面就是识别出来的文本内容！</p><p><img src="https://img.vim-cn.com/41/d9d1b1f7efcf5c1acb661e9340a9708f195c43.gif" alt=""></p><center>- 使用小蓝条的文字识别功能 -</center><p>好啦！说了这么多，目的只是为了向大家推荐下这款软件，它的功能其实都还是非常不错的。</p><blockquote><p>小蓝条官网：<a href="http://www.xiaolantiao.com" target="_blank" rel="noopener">www.xiaolantiao.com</a></p></blockquote><blockquote><p>小蓝条官方QQ群：<a href="http://shang.qq.com/wpa/qunwpa?idkey=5a27807266d30155dff493dc101246e233d1ab34b1b1c950cb0698f3e84c4330" target="_blank" rel="noopener">821310725</a> <font color="red">(有红包哦)</font></p></blockquote>]]></content>
     
@@ -150,31 +179,6 @@
       <category term="Martial X" scheme="https://www.wushile.top/tags/Martial-X/"/>
     
       <category term="顶部通知" scheme="https://www.wushile.top/tags/%E9%A1%B6%E9%83%A8%E9%80%9A%E7%9F%A5/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>MaterialPlus停止发售的通知</title>
-    <link href="https://www.wushile.top/article/article-top.html"/>
-    <id>https://www.wushile.top/article/article-top.html</id>
-    <published>2018-11-22T03:35:22.000Z</published>
-    <updated>2019-01-06T08:00:25.855Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="不作太多无奈的解释"><a href="#不作太多无奈的解释" class="headerlink" title="不作太多无奈的解释"></a>不作太多无奈的解释</h2><p>也许你在看到这篇文章时，可能会感到很震惊和难以理解，但我只能用一句话来表示这些：</p><blockquote><p>我认为：博客建立的初衷是交流探讨自己喜爱的技术，分享理解自己在生活中的各种事件、感悟和资讯等等这一切</p></blockquote><h2 id="MaterialPlus又该何去何从"><a href="#MaterialPlus又该何去何从" class="headerlink" title="MaterialPlus又该何去何从"></a>MaterialPlus又该何去何从</h2><p>我这个我也不知道，因为到了现在这个时候，我有着进退两难的情况：</p><h3 id="一、主题继续出售。"><a href="#一、主题继续出售。" class="headerlink" title="一、主题继续出售。"></a>一、主题继续出售。</h3><p>这是不可能的。</p><h3 id="二、将主题免费公开化、开源化供用户使用。"><a href="#二、将主题免费公开化、开源化供用户使用。" class="headerlink" title="二、将主题免费公开化、开源化供用户使用。"></a>二、将主题免费公开化、开源化供用户使用。</h3><p>这是一个很好的想法，然而，，，又怎么对得起那些之前已经付费购买了MaterialPlus的用户呢？</p><p>所以，我只能决定将MaterialPlus进行私用。</p><h2 id="其他内容"><a href="#其他内容" class="headerlink" title="其他内容"></a>其他内容</h2><h3 id="加入交流群"><a href="#加入交流群" class="headerlink" title="加入交流群"></a>加入交流群</h3><p>欢迎玩HEXO与Martial X的朋友入群交流和学习HEXO与Martial X主题。群成员可围绕HEXO以及Material X主题的安装、配置、修改等问题进行交流探讨。</p><center><img width="30%" src="/img/QqunQR.png"></center><center>QQ扫码加群</center><h3 id="博客搭建两部曲"><a href="#博客搭建两部曲" class="headerlink" title="博客搭建两部曲"></a>博客搭建两部曲</h3><p>以下两部视频为博主亲自制作的HEXO教程，专门提供给各位小白朋友学习HEXO的基本搭建和文章的发布。</p><blockquote><p>1.【利用代码托管平台与Hexo搭建个人博客】B站传送门：<br><a href="https://www.bilibili.com/video/av36175038" target="_blank" rel="noopener">https://www.bilibili.com/video/av36175038</a></p></blockquote><blockquote><p>2.【Hexo主题安装配置与创建文章页面】B站传送门：<br><a href="https://www.bilibili.com/video/av36820037" target="_blank" rel="noopener">https://www.bilibili.com/video/av36820037</a></p></blockquote>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;不作太多无奈的解释&quot;&gt;&lt;a href=&quot;#不作太多无奈的解释&quot; class=&quot;headerlink&quot; title=&quot;不作太多无奈的解释&quot;&gt;&lt;/a&gt;不作太多无奈的解释&lt;/h2&gt;&lt;p&gt;也许你在看到这篇文章时，可能会感到很震惊和难以理解，但我只能用一句话来表示这些：&lt;/
-      
-    
-    </summary>
-    
-      <category term="置顶文章" scheme="https://www.wushile.top/categories/%E7%BD%AE%E9%A1%B6%E6%96%87%E7%AB%A0/"/>
-    
-    
-      <category term="置顶文章" scheme="https://www.wushile.top/tags/%E7%BD%AE%E9%A1%B6%E6%96%87%E7%AB%A0/"/>
     
   </entry>
   

@@ -1095,8 +1095,12 @@ ul.h-list > li {
 }
 .l_header .menu ul > li > a:hover,
 .l_header .menu ul > li > a.active {
+  transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  -webkit-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
   color: #00AD9F;
-  border-bottom: 2px solid #00AD9F;
+  /*                border-bottom: 2px solid @color_ax_light_red;*/
 }
 @media (max-width: 1040px) {
   .l_header .menu {

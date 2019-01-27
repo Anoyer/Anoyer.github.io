@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://anoyer.cn/article/2019-Wannafly-Camp-day8.html</loc>
+    <lastmod>2019-01-27T11:31:11.313Z</lastmod>
+  </url>  <url>
+    <loc>https://anoyer.cn/article/2019-Wannafly-Camp-day1.html</loc>
+    <lastmod>2019-01-27T11:03:59.008Z</lastmod>
+  </url>  <url>
     <loc>https://anoyer.cn/article/2019-Wannafly-Camp-day7.html</loc>
     <lastmod>2019-01-27T02:51:25.045Z</lastmod>
   </url>  <url>
@@ -15,9 +21,6 @@
   </url>  <url>
     <loc>https://anoyer.cn/article/2019-Wannafly-Camp-day4.html</loc>
     <lastmod>2019-01-26T03:07:28.843Z</lastmod>
-  </url>  <url>
-    <loc>https://anoyer.cn/article/2019-Wannafly-Camp-day1.html</loc>
-    <lastmod>2019-01-26T03:07:16.721Z</lastmod>
   </url>  <url>
     <loc>https://anoyer.cn/article/C++%E6%96%87%E4%BB%B6%E8%AF%BB%E5%86%99.html</loc>
     <lastmod>2019-01-24T04:47:21.102Z</lastmod>

@@ -3,12 +3,6 @@ var customSearch;
 (function ($) {
 
 	"use strict";
-	const scrollCorrection = 70; // (header height = 50px) + (gap = 20px)
-	function scrolltoElement(elem, correction) {
-		correction = correction || scrollCorrection;
-		const $elem = elem.href ? $(elem.getAttribute('href')) : $(elem);
-		$('html, body').animate({ 'scrollTop': $elem.offset().top - correction }, 400);
-	};
 
 	function setHeader() {
 		if (!window.subData) return;
@@ -32,16 +26,6 @@ var customSearch;
 					pos = scrollTop;
 					$wrapper.removeClass('sub');
 				}
-				
-				}else{
-					if (del >= 50 && scrollTop > 100) {
-					pos = scrollTop;
-					$wrapper.addClass('');
-				} else if (del <= -50) {
-					pos = scrollTop;
-					$wrapper.removeClass('');
-				}
-
 			}
 		});
 
@@ -129,78 +113,14 @@ var customSearch;
 			e.stopPropagation();
 		})
 	}
-	function setWaves() {
-		Waves.init();
-	}
-	function setScrollReveal() {
-		const $reveal = $('.reveal');
-		if ($reveal.length === 0) return;
-		const sr = ScrollReveal({ distance: 0 });
-		sr.reveal('.reveal');
-	}
-	function setTocToggle() {
-		const $toc = $('.toc-wrapper');
-		if ($toc.length === 0) return;
-		// $toc.click((e) => {
-        //     e.stopPropagation();
-        //     $toc.addClass('active');
-        // });
-		$(document).click(() => $toc.removeClass('active'));
-
-		$toc.on('click', 'a', (e) => {
-			e.preventDefault();
-			e.stopPropagation();
-			if (e.target.tagName === 'A') {
-                scrolltoElement(e.target);
-            } else if (e.target.tagName === 'SPAN') {
-                scrolltoElement(e.target.parentElement);
-            }
-            $toc.removeClass('active');
-		});
-
-		const liElements = Array.from($toc.find('li a'));
-		//function animate above will convert float to int.
-		const getAnchor = () => liElements.map(elem => Math.floor($(elem.getAttribute('href')).offset().top - scrollCorrection));
-
-		let anchor = getAnchor();
-		const scrollListener = () => {
-			const scrollTop = $('html').scrollTop() || $('body').scrollTop();
-			if (!anchor) return;
-			//binary search.
-			let l = 0, r = anchor.length - 1, mid;
-			while (l < r) {
-				mid = (l + r + 1) >> 1;
-				if (anchor[mid] === scrollTop) l = r = mid;
-				else if (anchor[mid] < scrollTop) l = mid;
-				else r = mid - 1;
-			}
-			$(liElements).removeClass('active').eq(l).addClass('active');
-		}
-		$(window)
-			.resize(() => {
-				anchor = getAnchor();
-				scrollListener();
-			})
-			.scroll(() => {
-				scrollListener()
-			});
-		scrollListener();
-	}
 	
 	$(function () {
-		//set header
 		setHeader();
 		setHeaderMenu();
 		setHeaderMenuPhone();
 		setHeaderSearch();
-		setWaves();
-		setScrollReveal();
-		setTocToggle();
 		// getHitokoto();
 		// getPicture();
-
-
-		$(".article .video-container").fitVids();
 
 		if (SEARCH_SERVICE === 'google') {
 			customSearch = new GoogleCustomSearch({
@@ -240,3 +160,46 @@ var customSearch;
 	});
 
 })(jQuery);
+
+document.onkeydown = function(e) {
+    var isie = (document.all) ? true: false;
+    var key;
+    var ev;
+    if (isie) { 
+        key = window.event.keyCode;
+        ev = window.event;
+    } else { 
+        key = e.which;
+        ev = e;
+    }
+    if (key == 9) { 
+        if (isie) {
+            ev.keyCode = 0;
+            ev.returnValue = false;
+        } else {
+            ev.which = 0;
+            ev.preventDefault();
+        }
+    }
+};
+
+var url = window.location.href;
+window.onload=
+    function(){
+        var oDiv = document.getElementById("fixPara"),
+            H = 0,
+            Y = oDiv        
+        while (Y) {
+            H += Y.offsetTop; 
+            Y = Y.offsetParent;
+        }
+        window.onscroll = function()
+        {
+            var s = document.body.scrollTop || document.documentElement.scrollTop;
+            if(s>H && url.indexOf(".html") == -1) {
+                oDiv.style = "position:fixed;top:60px;"
+            } else {
+                oDiv.style = ""
+        }
+    }
+}
